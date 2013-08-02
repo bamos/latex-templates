@@ -3,7 +3,7 @@
 \RequirePackage{url,graphicx,tabularx,array,amsmath, amsfonts,
 amsthm,enumerate}
 
-\RequirePackage{enumitem} % \setlist
+\RequirePackage{enumitem}
 \setlength{\parskip}{1ex}
 \setlength{\parindent}{0pt}
 \setlist{nolistsep}
