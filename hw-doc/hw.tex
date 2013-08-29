@@ -1,0 +1,63 @@
+\documentclass[12pt]{hwdoc}
+\usepackage[hmargin=0.55in, vmargin=0.5in]{geometry}
+
+% Just in case the PDF is printed, include page numbers.
+% Headers or footers won't show up.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+Disclaimer: This file is originally produced with LaTeX and
+converted to doc format with
+\url{http://github.com/bamos/latex-templates/tree/master/hw-doc}. \\
+
+\headerline{\today}
+{\bf Class - Homework.}
+{Brandon Amos} \\
+
+\problem{1}
+Quotes.
+\begin{quote}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet 
+  dictum urna, sed vehicula ligula commodo eu.
+\end{quote}
+
+\problem{2}
+Enumerated lists. Warning - These convert with duplicated numbers!
+\begin{enumerate}
+  \item Pellentesque at congue sem. Proin pharetra risus 
+    eget augue auctor nec mattis justo ornare. Suspendisse eleifend 
+    egestas est, a vulputate orci eleifend eu. Vestibulum dapibus 
+    pellentesque luctus. Praesent blandit rhoncus ligula vel tristique. 
+  \item Mauris est metus, laoreet a consequat non, condimentum ut neque. In 
+    sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
+    tellus sagittis dignissim. Aenean in nisi eros.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\end{enumerate}
+
+\problem{3}
+Bulleted lists.
+\begin{itemize}
+  \item Pellentesque at congue sem. Proin pharetra risus 
+    eget augue auctor nec mattis justo ornare. Suspendisse eleifend 
+    egestas est, a vulputate orci eleifend eu. Vestibulum dapibus 
+    pellentesque luctus. Praesent blandit rhoncus ligula vel tristique. 
+  \item Mauris est metus, laoreet a consequat non, condimentum ut neque. In 
+    sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
+    tellus sagittis dignissim. Aenean in nisi eros.
+    Lore
+\end{itemize}
+
+\problem{4}
+Listings.
+\begin{lstlisting}
+int main() {
+  return 0;
+}
+\end{lstlisting}
+
+\end{document}
