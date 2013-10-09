@@ -1,7 +1,7 @@
 % http://www.stdout.org/~winston/latex/latexsheet.tex
 
 \ProvidesClass{cheatsheet}
-\LoadClassWithOptions{article}
+\LoadClassWithOptions{extarticle}
 \RequirePackage{url,graphicx,tabularx,array, amsfonts,
 amsthm,enumerate, enumitem}
 
@@ -9,32 +9,17 @@ amsthm,enumerate, enumitem}
 \usepackage{amsmath}
 
 \usepackage[landscape]{geometry}
+\geometry{top=.6in,left=.6in,right=.6in,bottom=.6in}
+
 \usepackage{graphicx} % includegraphics
 
 \setlength{\parskip}{1ex}
 \setlength{\parindent}{0pt}
 \setlist{nolistsep}
 
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0pt plus 0.5ex}
-\usepackage{enumitem}
-\setlist{nolistsep}
-
-\newcommand{\mitem}[2]{{\tt #1} & #2 \\}
-\newcommand{\ttitem}[2]{\mitem{#1}{\tt #2}}
-
 % Dont print section numbers
 %~ \setcounter{secnumdepth}{0}
 
-% This sets page margins to .5 inch if using letter paper, and to 1cm
-% if using A4 paper. (This probably isnt strictly necessary.)
-% If using another size paper, use default 1cm margins.
-\ifthenelse{\lengthtest { \paperwidth = 11in}}
-	{ \geometry{top=.25in,left=.25in,right=.25in,bottom=.25in} }
-	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
-		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-	}
 
 % Turn off header and footer
 \pagestyle{empty}
