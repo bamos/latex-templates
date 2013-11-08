@@ -1,20 +1,29 @@
-\documentclass[12pt]{hw}
+\documentclass[12pt]{article}
 \usepackage[hmargin=0.55in, vmargin=1.2in]{geometry}
+\usepackage[T1]{fontenc}
 
-\usepackage{mathtools}
+\usepackage{enumitem}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0pt}
+\setlist{nolistsep}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\lhead{Dec. 12th, 2012}
-\chead{{\bf Assignment \#1}}
-\rhead{Brandon Amos}
+\usepackage{listings, textcomp,color}
+\lstset{language=C,upquote=true,
+  basicstyle=\footnotesize,commentstyle=\textit,stringstyle=\upshape,
+  numbers=left,numberstyle=\footnotesize,stepnumber=1,numbersep=5pt,
+  backgroundcolor=\color{white},frame=single,tabsize=2,
+  showspaces=false,showstringspaces=false,showtabs=false,
+  breaklines=true,breakatwhitespace=true,escapeinside={\%*}{*)}
+}
+
+\usepackage{fancyhdr}\pagestyle{fancy}
+\lhead{\today}\chead{{\bfseries Assignment \#1}}\rhead{Brandon Amos}
 
 \usepackage{lastpage}
 \cfoot{Page \thepage\ of \pageref{LastPage}}
 
 \begin{document}
 
-\problem{1}
+{\bfseries Problem 1.}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet 
 dictum urna, sed vehicula ligula commodo eu. Lorem ipsum dolor sit 
 amet, consectetur adipiscing elit. Donec in neque ut quam aliquam 
@@ -27,7 +36,7 @@ Mauris est metus, laoreet a consequat non, condimentum ut neque. In
 sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
 tellus sagittis dignissim. Aenean in nisi eros.
 
-\problem{2}
+{\bfseries Problem 2.}
 Donec lacus sapien, facilisis eget accumsan eu, commodo a risus. Sed
 gravida pulvinar orci auctor commodo. Pellentesque vitae dolor sem,
 scelerisque tempus neque. Duis est mi, convallis a vehicula eu, volutpat
