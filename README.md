@@ -1,11 +1,11 @@
 # LaTeX Templates
-A centralization of the most recent LaTeX templates I use.
-See the [blog post](http://bamos.github.io/2013/04/13/latex-templates/).
 
++ `cheatsheet` - [Cheatsheet template][cheatsheet]
 + `hw` - Homework.
 + [hw-doc](http://bamos.github.io/2013/08/29/latex-to-doc-makefile/) -
   Homework to produce a Word `doc` file.
-+ `cheatsheet` - A cheatsheet to make quick reference cards.
++ `ieee-1.8` - [IEEE template][ieee]
++ `listings` - Produce a PDF with source code listings.
 
-# Credits
-+ `cheatsheet` - http://www.stdout.org/~winston/latex/
+[cheatsheet]: http://www.stdout.org/~winston/latex/
+[ieee]: http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/

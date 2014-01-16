@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage[hmargin=0.55in, vmargin=1.2in]{geometry}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0pt}
+\setlist{nolistsep}
+
+\usepackage{listings, textcomp,color}
+\lstset{language=C,upquote=true,
+  basicstyle=\footnotesize,commentstyle=\textit,stringstyle=\upshape,
+  numbers=left,numberstyle=\footnotesize,stepnumber=1,numbersep=5pt,
+  backgroundcolor=\color{white},frame=single,tabsize=2,
+  showspaces=false,showstringspaces=false,showtabs=false,
+  breaklines=true,breakatwhitespace=true,escapeinside={\%*}{*)}
+}
+
+\usepackage{fancyhdr}\pagestyle{fancy}
+\lhead{\today}\chead{{\bf Listings}}\rhead{Brandon Amos}
+
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+\newcommand{\file}[1]{\section{#1}\lstinputlisting{#1}}
+
+\begin{document}
+
+\file{test.c}
+
+\end{document}
