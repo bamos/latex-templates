@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage[hmargin=0.8in,vmargin=0.8in]{geometry}\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{url}
+
+\setlength{\topskip}{0mm}
+\def\parskipval{0em}\def\parindentval{1em}
+\setlength{\parskip}{\parskipval}\setlength{\parindent}{\parindentval}
+\usepackage{enumitem}\setlist{nolistsep}
+
+\usepackage{natbib}
+\setlength{\bibsep}{0.0pt}
+
+\title{Runtime analysis of mobile devices for malware detection. \\
+  {\large Research proposal.}}
+\author{Brandon Amos}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction.}
+Mobile devices and technology are exploding,
+where the number of mobile devices
+is expected to exceed the number of people on Earth by
+2014\footnote{\url{http://blogs.cisco.com/sp/the-future-of-monetizing-mobility/}}.
+% and wireless carriers globally
+% obtain \$1.3 trillion in revenue each year.
+%outside of computer science
+%Major industries
+%utilize mobile technologies,
+%where the U.S. military have over 250,000 mobile devices in
+%use, %\footnote{\url{http://www.informationweek.com/government/mobile/dod-pushes-militarys-mobile-strategy-for/240010603}}
+Mobile security has become a serious concern due to the sensitive
+information mobile devices contain and the critical systems mobile
+devices control. %, such as GPS locations of soldiers.
+% Compromising mobile devices grants hackers access
+% and control to critical information and cyber-physical systems,
+% and compromising mobile devices raises major security concerns.
+In {\it the military}, the GPS locations and identities of
+deployed military members can be obtained.
+In {\it manufacturing}, computer-aided manufacturing tools can be
+controlled with a mobile device,
+allowing an attacker to silently alter the manufacturing process,
+as I have studied \cite{turner2013bad}.
+In {\it healthcare}, patients can rely on glucose monitors on
+mobile devices, allowing an attacker to send false reports and harm patients.
+\textit{Low malware detection rates are an \textbf{open research problem.}}
+A study of thousands of real Android malware samples in 2011 show
+that industry antimalware software detect
+79.6\% of the malware in the best case and
+20.2\% in the worst case \cite{zhou2012dissecting}.
+
+\newpage
+\bibliographystyle{abbrv}
+\bibliography{references}
+
+\end{document}
