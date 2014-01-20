@@ -3,6 +3,7 @@
 die() { echo $*; exit -1; }
 
 git checkout gh-pages
+git merge master
 ./make-all.sh || exit -1
 
 cat > index.html<<EOF
