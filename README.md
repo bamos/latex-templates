@@ -5,6 +5,7 @@
 + `cheatsheet` - [Cheatsheet template][cheatsheet]
 + `hw` - Homework.
 + `ieee-1.8` - [IEEE template][ieee]
++ `invoice`
 + `listings` - Produce a PDF with source code listings.
 + `quotes` - Quoted environment for responding inline.
 + `statement-concise` - Concise personal statement template.

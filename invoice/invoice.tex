@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[hmargin=1.0in, vmargin=1.2in]{geometry}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0pt}
+\setlist{nolistsep}
+
+\usepackage{fancyhdr}\pagestyle{fancy}
+\rhead{{\bf Invoice} \\ \today}
+
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+\usepackage{url}
+
+\begin{document}
+
+\begin{flushright}
+  Brandon Amos <\url{bdamos@vt.edu}> \\
+  TODO
+\end{flushright}
+
+\begin{tabular}{rl}
+To: & TODO Corp. \\
+    & TODO \\
+    & TODO
+\end{tabular}
+
+\vspace{2\parskip}
+
+\begin{tabular}{ccc}
+  Description & Amount \\ \hline
+  TODO & TODO USD \\ \hline
+  TODO & TODO USD \\ \hline
+  TODO & TODO USD \\ \hline
+  \hfill {\bf Total} & TODO USD
+\end{tabular}
+
+\vspace{2\parskip}
+
+\begin{tabular}{rl}
+  \multicolumn{2}{c}{\bf Payment Information} \\ \hline
+  Account number & TODO \\
+  ACH Routing Transit Number & TODO \\
+  SWIFT Bank Identifier Code & TODO \\
+  Bank name & TODO \\
+  Bank address & TODO \\
+               & TODO
+\end{tabular}
+
+\end{document}
