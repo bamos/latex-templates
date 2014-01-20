@@ -18,7 +18,7 @@ for TMPL_PDF in $(find . -name '*.pdf'); do
   SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
   cat >> index.html <<EOF
 <h2>$SHORT_NAME</h2>
-<embed src="$TMPL_PDF" width="800" height="600">
+<embed src="$TMPL_PDF" width="100%" height="700">
 
 EOF
 done
