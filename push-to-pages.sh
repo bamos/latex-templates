@@ -21,7 +21,7 @@ cat > index.html<<EOF
 
 EOF
 for TMPL_PDF in $(find . -name '*.pdf'); do
-  git add $TMPL_PDF
+  git add -f $TMPL_PDF
   SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
   cat >> index.html <<EOF
 <h2>$SHORT_NAME</h2>
