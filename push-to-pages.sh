@@ -26,4 +26,4 @@ done
 git add index.html || die "Unable to add."
 git commit -m "Update gh-pages." || die "Unable to commit."
 git push || die "Unable to push."
-git branch master
+git checkout master
