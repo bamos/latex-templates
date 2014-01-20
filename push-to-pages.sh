@@ -7,6 +7,13 @@ git merge master
 ./make-all.sh || exit -1
 
 cat > index.html<<EOF
+<!DOCTYPE html>
+<head>
+  <title>LaTeX Templates</title>
+</head>
+
+<html>
+<body>
 <h1>
   <a href="http://github.com/bamos/latex-templates">LaTeX Templates</a>
 </h1>
@@ -22,6 +29,11 @@ for TMPL_PDF in $(find . -name '*.pdf'); do
 
 EOF
 done
+
+cat >> index.html<<EOF
+</body>
+</html>
+EOF
 
 git add index.html || die "Unable to add."
 git commit -m "Update gh-pages." || die "Unable to commit."
