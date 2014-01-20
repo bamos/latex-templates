@@ -1,5 +1,7 @@
 # LaTeX Templates
 
+[View previews.](http://bamos.io/latex-templates)
+
 + `cheatsheet` - [Cheatsheet template][cheatsheet]
 + `hw` - Homework.
 + `ieee-1.8` - [IEEE template][ieee]
