@@ -1,16 +1,16 @@
 \documentclass[12pt]{article}
-\usepackage[hmargin=0.7in,vmargin=0.8in]{geometry}\usepackage[T1]{fontenc}
-\usepackage{graphicx}
+\usepackage[hmargin=0.75in,vmargin=1in]{geometry}
+\usepackage[T1]{fontenc}
 
-\setlength{\topskip}{0mm}
-\def\parskipval{0em}\def\parindentval{0em}
-\setlength{\parskip}{\parskipval}\setlength{\parindent}{\parindentval}
-
-\usepackage{url}
+\setlength{\topskip}{0mm}\setlength{\parskip}{0em}\setlength{\parindent}{0em}
+\usepackage{enumitem}\setlist{nolistsep}
 
 \def\mytitle{Review Responses.}\def\me{Brandon Amos}
 \title{\vspace*{-15mm}\mytitle\vspace*{-7mm}}\author{\me}\date{\today}
 \usepackage{fancyhdr}\pagestyle{fancy}\lhead{\me}\rhead{\mytitle}
+
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
 
 \newenvironment{myquotation}{
   \vspace{4mm}
