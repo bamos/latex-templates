@@ -1,0 +1,46 @@
+\documentclass{beamer}
+\mode<presentation> { \usetheme{Montpellier} }
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\setbeamertemplate{bibliography item}[text]%,
+
+\usepackage[T1]{fontenc}
+\usepackage{parskip,graphics}
+\setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} \setlength{\parsep}{0pt}
+
+\begin{document}
+{
+  \def\t{Title.}\def\n{Brandon Amos}\def\d{2014/02/24}
+  \title[\t]{\t}\author[\n]{\n}\date[\d]{\d}
+  \frame{\titlepage}
+}
+
+\frame{\frametitle{Table of Contents.}\tableofcontents}
+\def\t{Foo.}\section{\t}
+\frame{\frametitle{\t}
+  \begin{itemize}
+    \item A \cite{kremer2003compilation}.
+    \item B,C,D
+      \cite{kosta2012thinkair,cuervo2010maui,yang2013fast,chun2011clonecloud}.
+    \item E
+    \item F
+  \end{itemize}
+}
+
+\def\t{Bar.}\section{\t}
+\frame{\frametitle{\t}
+  \begin{itemize}
+    \item A
+    \item B
+    \item C
+  \end{itemize}
+}
+
+\section{Bibliography}
+\begin{frame}[allowframebreaks]{Bibliography}
+  \scriptsize
+  \bibliographystyle{ieeetr}
+  \bibliography{references}
+\end{frame}
+
+\end{document}
