@@ -33,12 +33,24 @@ a:hover {text-decoration:underline;}
 </h1>
 <a href=http://bamos.io/about>Brandon Amos</a>
 
+<ul>
 EOF
-BASE_LINK=https://github.com/bamos/latex-templates/tree/gh-pages/
-for TMPL_PDF in $(find . -name '*.pdf'); do
+BASE_LINK=https://github.com/bamos/latex-templates/tree/gh-pages
+for TMPL_PDF in $(find . -name '*.pdf' | sort); do
+  SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
+  echo "  <li><a href="#$SHORT_NAME">$SHORT_NAME</a>" >> index.html
+done
+echo -e "</ul>\n" >> index.html
+for TMPL_PDF in $(find . -name '*.pdf' | sort); do
   SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
   cat >> index.html <<EOF
-<h2><a href="$BASE_LINK/$SHORT_NAME">$SHORT_NAME</a></h2>
+<h2 style='display: inline'>
+  <a
+    href="$BASE_LINK/$SHORT_NAME"
+    id="$SHORT_NAME"
+  >$SHORT_NAME</a>
+</h2>
+<small><a href="#">(Top)</a></small>
 <embed src="$TMPL_PDF" width="100%" height="700">
 
 EOF
