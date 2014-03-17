@@ -9,11 +9,9 @@
 \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} \setlength{\parsep}{0pt}
 
 \begin{document}
-{
-  \def\t{Title.}\def\n{Brandon Amos}\def\d{2014/02/24}
-  \title[\t]{\t}\author[\n]{\n}\date[\d]{\d}
-  \frame{\titlepage}
-}
+\def\t{Title.}\def\n{Brandon Amos}\def\d{2014/02/24}
+\title[\t]{\t}\author[\n]{\n}\date[\d]{\d}
+\frame{\titlepage}
 
 \frame{\frametitle{Table of Contents.}\tableofcontents}
 \def\t{Foo.}\section{\t}
@@ -27,8 +25,8 @@
   \end{itemize}
 }
 
-\def\t{Bar.}\section{\t}
-\frame{\frametitle{\t}
+\def\t{Bar.}\section{\t}\def\st{Baz.}\subsection{\st}
+\frame[allowframebreaks]{\frametitle{\t}\framesubtitle{\st}
   \begin{itemize}
     \item A
     \item B
