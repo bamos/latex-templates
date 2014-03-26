@@ -41,7 +41,7 @@ for TMPL_PDF in $(find . -maxdepth 2 -name '*.pdf' | sort); do
   echo "  <li><a href="#$SHORT_NAME">$SHORT_NAME</a>" >> index.html
 done
 echo -e "</ul>\n" >> index.html
-for TMPL_PDF in $(find . -name '*.pdf' | sort); do
+for TMPL_PDF in $(find . -maxdepth 2 -name '*.pdf' | sort); do
   SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
   cat >> index.html <<EOF
 <h2 style='display: inline'>
