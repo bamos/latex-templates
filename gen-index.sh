@@ -36,7 +36,7 @@ a:hover {text-decoration:underline;}
 <ul>
 EOF
 BASE_LINK=https://github.com/bamos/latex-templates/tree/gh-pages
-for TMPL_PDF in $(find . -name '*.pdf' | sort); do
+for TMPL_PDF in $(find . -maxdepth 2 -name '*.pdf' | sort); do
   SHORT_NAME=$(echo $TMPL_PDF | sed 's/\.\/\(.*\)\/.*\.pdf/\1/g')
   echo "  <li><a href="#$SHORT_NAME">$SHORT_NAME</a>" >> index.html
 done
