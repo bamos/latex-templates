@@ -11,11 +11,11 @@
 %% Copyright (C) 2007-2011 Brian Amberg
 %% Copyright (C) 2011      Reinhold Kainhofer <reinhold@kainhofer.com>
 %%
-%% 29. September 2011: 
-%%     - Finally fixed confusion with paper size handling and landscape. This required seperate handling of papersizes 
+%% 29. September 2011:
+%%     - Finally fixed confusion with paper size handling and landscape. This required seperate handling of papersizes
 %%       known to the geometry package and other packages.
 %% 26. September 2011:
-%%     - Reverted drawing of faded borders to manual method, as the current result does not work with evince, 
+%%     - Reverted drawing of faded borders to manual method, as the current result does not work with evince,
 %%       and produced spurious colored boxes with okular and acroread.
 %%     - Added one more example due to popular request
 %% 16. September 2011:
@@ -282,7 +282,7 @@
    bmargin=\baposter@basemargin,
    lmargin=\baposter@basemarginleft,
    rmargin=\baposter@basemarginright,
-   ]{geometry} 
+   ]{geometry}
 
 \usepackage{pgfpages}
 \if@landscape

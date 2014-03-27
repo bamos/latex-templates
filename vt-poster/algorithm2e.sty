@@ -6,11 +6,11 @@
 % of this license or (at your option) any later version.
 % The latest version of this license is in
 %   http://www.latex-project.org/lppl.txt
-% and version 1.2 or later is part of all distributions of LaTeX 
+% and version 1.2 or later is part of all distributions of LaTeX
 % version 1999/12/01 or later.
 %
 % This program consists of the files algorithm2e.sty and algorithm2e.tex
-%  
+%
 %  Report bugs and comments to:
 %  fiorio@lirmm.fr
 %
@@ -24,13 +24,13 @@
 %
 %%%%%%%%%%%%%%%  Release 3.9
 %
-%   History: 
+%   History:
 %
 %   - October  04 2005  - revision 3.9 -
 %                      * ADD: - \setalcaphskip command which set the horizontal skip before Algorithm: in caption when
 %                               used in ruled algorithm.
 %                      * ADD: - SetAlgoInsideSkip command which allows to add an extra vertical space before and after
-%                               the core of the algorithm (ie: \SetAlgoInsideSkip{bigskip}) 
+%                               the core of the algorithm (ie: \SetAlgoInsideSkip{bigskip})
 %                      * CHANGE: - caption, when used with figure option, is no more controlled by algorithm2e package
 %                                  and so follows the exact behaviour of figures. The drawback is that you cannot change
 %                                  the typo with AlTitleFnt or CapFnt. The avantage is that if you use caption package,
@@ -77,7 +77,7 @@
 %                      * FIX: - vertical spacing for uif macro with noend option
 %                      * FIX: - all the compatibility problems between caption and other packages
 %                      * FIX: - typographical differences between list of algorithms and other lists
-%                               when in report or book 
+%                               when in report or book
 %
 %   - January 24 2005  - revision 3.6 -
 %                      * FIX: - vertical spacing and space characters at the beginning or end of
@@ -103,20 +103,20 @@
 %                      * ADD: - \AlCapSkip skip length. This vertical space is added before caption
 %                               in plain ou boxed mode. It allows to change distance between text
 %                               and caption.
-%                      * FIX: - caption compatible with IEEEtran class. 
+%                      * FIX: - caption compatible with IEEEtran class.
 %                      * FIX: - some vertical spacing error with \uIf macros (Thanks to Arnaud Giersch)
 %                      * FIX: - Procedure and Function: lines are also numbered like algorithms
 %                      * FIX: - CommentSty was not used for Comments
 %
 %   - January 10 2005  - revision 3.4 -
-%                      * FIX: - caption compatible with new release of Beamer class. 
+%                      * FIX: - caption compatible with new release of Beamer class.
 %
-%   - June 16 2004     - revision 3.3 - 
-%                      * FIX: - Hyperlink references of Hyperref package works now if compiled with pdflatex 
+%   - June 16 2004     - revision 3.3 -
+%                      * FIX: - Hyperlink references of Hyperref package works now if compiled with pdflatex
 %                               and [naturalnames] option of hyperref package is used.
 %                      * FIX: - algorithm[H] had problem in an list environment - corrected
 %                      * FIX: - interline was not so regular in nested blocks - corrected
-%                      * ADD  - \Setvlineskip macro which set the vertical skip after the little horizontal 
+%                      * ADD  - \Setvlineskip macro which set the vertical skip after the little horizontal
 %                               rule which closes a block in Vlined mode. By default 0.8ex
 %
 %   - June 11 2004     - revision 3.2 - AUTO NUMBERING LINES !!!
@@ -171,7 +171,7 @@
 %                      * Fix: german and portuges option didn't work due to bad
 %                             typo (notified by Martin Sievers, Thorsten Vitt
 %                             and Jeronimo Pellegrini)
-%                      
+%
 %   - February 13 2004 - revision 3.0 -
 %                      * Major revision which makes the package independent from
 %                        float.sty, so now
@@ -274,32 +274,32 @@
 %                      * bug related to option noend (extra vertical space added
 %                        after block command as If or For) is corrected.
 %                      * czech option language added (thanks to Libor Bus: l.bus@sh.cvut.cz).
-%  
+%
 %   - October 16 2000 - revision 2.37
 %                      * option algo2e added: change the name of environment
 %                        algorithm into algorithm2e. So allow to use the package
 %                        with some journal style which already define an algorithm
 %                        environment.
-%  
+%
 %   - September 13 2000 - revision 2.36
 %                      * option slide added: require package color
 %                      * Hack for slide class in order to have correct
 %                        margins
-%  
+%
 %   - November 25 1999 - revision 2.35
 %                      * revision number match RCS number
 %                      * Thanks to David A. Bader, a new option is added:
 %                        noend: no end keywords are printed.
-%  
+%
 %   - November 19 1999 - revision 2.32
 %                      * minor bug on longend option corrected.
-%  
+%
 %   - August 26 1999 - revision 2.31
 %                      * add an option : figure
 %                        this option makes algorithms be figure and so are numbered
-%                        as figures, have Figure as caption and are put in 
+%                        as figures, have Figure as caption and are put in
 %                        the \listoffigures
-%  
+%
 %   - January 21 1999 - revision 2.3 beta
 %                    add 2 new environments: procedure and function.
 %                    These environments works like algorithm environment but:
@@ -309,7 +309,7 @@
 %                      follow: you MUST put a name followed by 2 braces like
 %                      this ``()''. You can put arguments inside the braces and
 %                      text after. If no argument is given, the braces will be
-%                      removed in the title. 
+%                      removed in the title.
 %                    - label now puts the name (the text before the braces in the
 %                      caption) of the procedure or function as reference (not
 %                      the number like a classic algorithm environment).
@@ -317,7 +317,7 @@
 %                    ProcArgSty. These style are by default the same as FuncSty
 %                    and ArgSty but are used in the caption of a procedure or a
 %                    function.
-%                    
+%
 %   - November 28 1996 - revision 2.22
 %                    add a new macro \SetKwInParam{arg1}{arg2}{arg3}:
 %                    it defines a macro \arg1{name}{arg} which prints name in keyword
@@ -327,14 +327,14 @@
 %                    \SetKwInParam{Func}{(}{)} allows
 %                    \Func{functionname}{list of arguments} which prints:
 %                    \KwSty{functioname(}list of arguments\KwSty{)}
-%       
+%
 %
 %   - November 27 1996 - revision 2.21 :
 %                    minor bug in length of InOut boxes fixed.
 %                    add algorithm* environment.
 %
 %   - July 12 1996 - revision 2.2 : \SetArg and \SetKwArg macros removed.
-%                        
+%
 %                    \SetArg has been removed since it never has been
 %                    documented.
 %                    \SetKwArg has been removed since \SetKw can now
@@ -343,31 +343,31 @@
 %
 %   - July 04 1996 - revision 2.1 : still more LaTeX2e! Minor compatibility break
 %
-%                    Macros use now \newcommand instead of \def, use of \setlength, 
+%                    Macros use now \newcommand instead of \def, use of \setlength,
 %                    \newsavebox, ... and other LaTeX2e specific stuff.
 %                    The compatibility break:
-%                    - \SetData becomes \SetKwData to be more consistent. So the old 
+%                    - \SetData becomes \SetKwData to be more consistent. So the old
 %                      \SetKwData becomes \SetKwInput
 %                    - old macros \titleofalgo, \Freetitleofalgo and \freetitleofalgo
-%                      from LaTeX209 version which did print a warning message and call 
+%                      from LaTeX209 version which did print a warning message and call
 %                      \Titleofalgo in version 2.0 are now removed!
 %
 %   - March 13 1996 - revision 2.0: first official major revision.
-%   
+%
 %
 %%%%%%%%%%%%%%
 %
-%   Known bugs: 
+%   Known bugs:
 %   -----------
 %   - no more known bugs... all are corrected!
 %
 %%%%%%%%%%%%%%
 %
-%   Package options: 
+%   Package options:
 %   ---------------
 %   - french, english, german, portuguese, czech  : for the name of the algorithm, e.g.
 %   - boxed, boxruled, ruled, algoruled, plain    : layout of the algorithm
-%   - algo2e                           : environment is algorithm2e instead of algorithms 
+%   - algo2e                           : environment is algorithm2e instead of algorithms
 %                                        and \listofalgorithmes instead of \listofalgorithms
 %   - slide                            : to use when making slides
 %   - noline,lined,vlined              : how block are designed.
@@ -378,14 +378,14 @@
 %   - resetcount, noresetcount         : start value of line numbers.
 %   - algonl                           : line numbers preceded by algo number
 %   - shortend, longend, noend         : short or long end keyword as endif for e.g.
-%  
+%
 %   defaults are; english,plain,resetcount,titlenotnumbered
 %
 %%%%%%%%%%%%%%
 %
-%   Short summary  
+%   Short summary
 %   -------------
-%  
+%
 %   algorithm is an environment for writing algorithm in LaTeX2e
 %   It provide macros that allow you to create differents
 %   sorts of key words, therefore a set of predefined key word
@@ -404,14 +404,14 @@
 %   Note that if you define macros outside algorithm environment they
 %   are avaible in all the document and particulary you can use then
 %   inside all algorithms without re-define them.
-%  
+%
 %   an example:
 %
 %   \begin{algorithm}[H]
 %     \SetLine
 %     \AlgData{this text}
 %     \AlgResult{how to write algorithm with \LaTeX2e }
-%     
+%
 %     initialization\;
 %     \While{not at end of this document}{
 %       read current section\;
@@ -442,7 +442,7 @@
 %     \Else{inside Else}                          % in a block
 %     \eIf{condition}{Then Block}{Else block}     % in blocks
 %     \lIf{condition}{Else text}                  % on the same line
-%     \lElse{Else text}                           % on the same line        
+%     \lElse{Else text}                           % on the same line
 %     \Switch{Condition}{Switch block}
 %     \Case{a case}{case block}                   % in a block
 %     \lCase{a case}{case text}                   % on the same line
@@ -950,7 +950,7 @@
 %
 \skiphlne=.8ex%
 \newcommand{\Setvlineskip}[1]{\skiphlne=#1}
-\newcommand{\V@line}[1]{%     no vskip in between boxes but a strut to separate them, 
+\newcommand{\V@line}[1]{%     no vskip in between boxes but a strut to separate them,
   \strut\par\nointerlineskip% then interblock space stay the same whatever is inside it
   \al@push{\skiprule}%        move to the right before the vertical rule
   \hbox{\vrule%
@@ -959,7 +959,7 @@
   \al@pop{\skiprule}%\al@subskiptotal% restore indentation
   \nointerlineskip}% no vskip after
 %
-\newcommand{\V@sline}[1]{%    no vskip in between boxes but a strut to separate them, 
+\newcommand{\V@sline}[1]{%    no vskip in between boxes but a strut to separate them,
   \strut\par\nointerlineskip% then interblock space stay the same whatever is inside it
   \al@push{\skiprule}%        move to the right before the vertical rule
   \hbox{\vrule%               the vertical rule
@@ -970,7 +970,7 @@
 %
 \newcommand{\H@lne}{\hrule height 0.4pt depth 0pt width .5em}
 %
-\newcommand{\No@line}[1]{%    no vskip in between boxes but a strut to separate them, 
+\newcommand{\No@line}[1]{%    no vskip in between boxes but a strut to separate them,
   \strut\par\nointerlineskip% then interblock space stay the same whatever is inside it
   \al@push{\skiprule}%
   \hbox{%
@@ -1017,10 +1017,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% ``Input :'''s like command 
+% ``Input :'''s like command
 %
 %%%
-% text staying at the right of the longer keyword of KwInOut commands 
+% text staying at the right of the longer keyword of KwInOut commands
 % (text of KwInOut commands are all vertically aligned)
 %
 \newcommand{\algocf@newinout}{\par\parindent=\wd\algocf@inoutbox}% to put right indentation after a \\ in the KwInOut
@@ -1045,7 +1045,7 @@
   \setlength{\inoutsize}{\wd\algocf@inoutbox}%
   }
 %
-% 
+%
 %%%
 % text staying at the right of the keyword.
 %
@@ -1175,7 +1175,7 @@
 %
 \newcommand{\SetKwBlock}[3]{%
 \@ifundefined{algocf@#1}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
-% side text or not? 
+% side text or not?
 \expandafter\def\csname#1\endcsname{ %Begin
   \@ifnextchar({\csname algocf@#1opt\endcsname}{\csname algocf@#1\endcsname}}
 % with side text
@@ -1197,7 +1197,7 @@
 \newcommand{\SetKwSwitch}[8]{% #1=\Switch #2=\Case #3=\Other #4=swicth #5=case #6=do #7=otherwise #8=endsw
 %%%% Switch
 \@ifundefined{algocf@#1}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
-% side text or not? 
+% side text or not?
 \expandafter\def\csname#1\endcsname{ %Switch
   \@ifnextchar({\csname algocf@#1opt\endcsname}{\csname algocf@#1\endcsname}}
 % with side text
@@ -1208,7 +1208,7 @@
   \KwSty{#4} \ArgSty{##1} \KwSty{#5}\a@block{##2}{#8}}%
 % side text at the end
 \expandafter\def\csname algocf@#1end\endcsname(##1){% \Switch{}{}()
-  
+
 }
 
 %%%% Case
@@ -1236,7 +1236,7 @@
   \KwSty{#6} \ArgSty{##1} ##2}%
 %%%% Other
 \@ifundefined{algocf@#3}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
-% side text or not? 
+% side text or not?
 \expandafter\def\csname#3\endcsname{ %Other
   \@ifnextchar({\csname algocf@#3opt\endcsname}{\csname algocf@#3\endcsname}}
 \expandafter\def\csname l#3\endcsname{ %Other
@@ -1248,7 +1248,7 @@
   \KwSty{#7} ##2\algocf@endline\ ##1\par}%
 % without side text
 \expandafter\algocf@mkcmd\csname algocf@#3\endcsname[1]{% default
-  \KwSty{#7}\a@block{##1}{#8}}% 
+  \KwSty{#7}\a@block{##1}{#8}}%
 \expandafter\algocf@mkcmd\csname algocf@l#3\endcsname[1]{% ldefault
   \KwSty{#7} ##1}%
 }
@@ -1257,7 +1257,7 @@
 % If macros
 %
 \newcommand{\SetKwIF}[8]{% #1=\If #2=\ElseIf #3=\Else #4=if #5=then #6=elseif si #7=else #8=endif
-% 
+%
 % common text
 \@ifundefined{#1@ifthen}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
 \expandafter\algocf@mkcmd\csname #1@ifthen\endcsname[1]{%
@@ -1297,16 +1297,16 @@
   \csname #1@ifthen\endcsname{##1}\csname #1@else\endcsname{##2}%
   \csname algocf@e#1opte\endcsname}%
 % side text after else or not ?
-\expandafter\def\csname algocf@e#1opte\endcsname{% 
+\expandafter\def\csname algocf@e#1opte\endcsname{%
   \@ifnextchar({\csname algocf@e#1optopt\endcsname}{\csname algocf@e#1\endcsname}}
 % else with a side text
-\expandafter\def\csname algocf@e#1optopt\endcsname(##1)##2{% 
+\expandafter\def\csname algocf@e#1optopt\endcsname(##1)##2{%
   ##1\csname #1@endif\endcsname{##2}}
 % else without side text
-\expandafter\algocf@mkcmd\csname algocf@e#1\endcsname[1]{% 
+\expandafter\algocf@mkcmd\csname algocf@e#1\endcsname[1]{%
   \csname #1@endif\endcsname{##1}}
 %
-%%%% If then 
+%%%% If then
 %
 % side text or not?
 \expandafter\def\csname l#1\endcsname{% lif
@@ -1368,7 +1368,7 @@
 \expandafter\algocf@mkcmd\csname algocf@#3\endcsname[1]{% \Else{}
   \csname #3@else\endcsname\csname #1@endif\endcsname{##1}}%
 %
-%%%% Else 
+%%%% Else
 %
 % side text or not?
 \expandafter\def\csname l#3\endcsname{% lElse
@@ -1403,7 +1403,7 @@
 %
 \newcommand{\SetKwFor}[4]{%
 \@ifundefined{algocf@#1}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
-% side text or not? 
+% side text or not?
 \expandafter\def\csname#1\endcsname{ %For
   \@ifnextchar({\csname algocf@#1opt\endcsname}{\csname algocf@#1\endcsname}}
 \expandafter\def\csname l#1\endcsname{ %For
@@ -1426,7 +1426,7 @@
 %
 \newcommand{\SetKwRepeat}[3]{%
 \@ifundefined{algocf@#1}{\let\algocf@mkcmd=\newcommand}{\let\algocf@mkcmd=\renewcommand}%
-% side text or not? 
+% side text or not?
 \expandafter\def\csname#1\endcsname{ %Repeat
   \@ifnextchar({\csname algocf@#1opt\endcsname}{\csname algocf@#1\endcsname}}
 \expandafter\def\csname l#1\endcsname{ %lRepeat
@@ -1449,7 +1449,7 @@
   \KwSty{#2} ##2 \KwSty{#3} \ArgSty{##1}}%
 }
 %
-% 
+%
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%        Environments definitions     %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1506,7 +1506,7 @@
     \vbox{%
       \hrule\vskip2\lineskip%
       \hbox to\hsize{\unhbox\algocf@capbox\hfill}\vskip2\lineskip%
-    }% 
+    }%
     %\hskip-0.35pt%
     \vrule%
   }\vskip-2\lineskip\nointerlineskip%
@@ -1572,7 +1572,7 @@
 %
 % ----------------------  algocf environment
 %
-\newcounter{algocfline}                    % new counter to make lines numbers be internally 
+\newcounter{algocfline}                    % new counter to make lines numbers be internally
 \setcounter{algocfline}{0}                 % different in different algorithms
 %
 \expandafter\ifx\csname algocf@within\endcsname\relax% if \algocf@within doesn't exist
@@ -1673,7 +1673,7 @@
 %
 %%%%%%%%%%%%%%%%%
 %% makethealgo: macro which print effectively the algo in its box
-%% 
+%%
 \newsavebox\algocf@algobox
 \newcommand{\algocf@makethealgo}{%
   \vtop{%
@@ -1732,7 +1732,7 @@
   % restore dimension and macros
   \setlength{\hsize}{\algowidth}%
   \lineskip\normallineskip\setlength{\skiptotal}{\@defaultskiptotal}%
-  \let\;=\@mathsemicolon%  
+  \let\;=\@mathsemicolon%
   %
 }
 %%%%%%%%%%%%%%%%%%%%
@@ -1756,7 +1756,7 @@
      {\setboolean{algocf@algoH}{true}\begin{algocf@Here}}%
      {\begin{algocf}[#1]}%
    }%
-    \@algocf@start% 
+    \@algocf@start%
     \@ResetCounterIfNeeded%
     \algocf@linesnumbered%
 }{%
@@ -1814,7 +1814,7 @@
 %%% Text of caption for Procedure or Function
 \newcommand{\algocf@captionproctext}[2]{%
   {\AlCapFnt{}\AlTitleFnt{\algocf@procname} %
-  \ProcNameSty{\algocf@captname #2@}% Name of the procedure in ProcName Style. 
+  \ProcNameSty{\algocf@captname #2@}% Name of the procedure in ProcName Style.
   \ifthenelse{\equal{\algocf@captparam #2@}{\arg@e}}{}% if no argument, write nothing
   {%                                                else put arguments in ProcArgSty:
     \ProcNameSty{(}\ProcArgSty{\algocf@captparam #2@}\ProcNameSty{)}%
@@ -1823,9 +1823,9 @@
   }
 }
 %%%% set caption for the environment
-% unfortunately, makecaption is called with \ignorespace #3 so 
+% unfortunately, makecaption is called with \ignorespace #3 so
 % we can't do the @currentlabel definition inside \algocf@captionproctext
-\long\def\algocf@caption@proc#1[#2]#3{% 
+\long\def\algocf@caption@proc#1[#2]#3{%
   \gdef\@currentlabel{\algocf@captname #3@}%
   \algocf@old@caption{#1}[\algocf@procname\nobreakspace #2]{\ #3}%
 }%
@@ -1907,7 +1907,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% 
+%
 \newcommand{\Titleofalgo}[1]{\@titleprefix\TitleSty{#1}\par\smallskip}
 %
 %
@@ -1974,7 +1974,7 @@
 \SetKw{Retorna}{retorna}%
 \SetKwBlock{Inicio}{in\'{i}cio}{fim}%
 \SetKwRepeat{Repita}{repita}{at\'{e}}%
-% --- End 
+% --- End
 }
 %
 %

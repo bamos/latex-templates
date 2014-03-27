@@ -23,7 +23,7 @@ amsthm,enumerate, enumitem}
 
 % Turn off header and footer
 \pagestyle{empty}
- 
+
 
 % Redefine section commands to use less space
 \makeatletter
@@ -41,7 +41,7 @@ amsthm,enumerate, enumitem}
                                 {\normalfont\small\bfseries}}
 \makeatother
 
-% Insert 
+% Insert
 % http://tex.stackexchange.com/questions/12262/multicol-and-figures
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}}
