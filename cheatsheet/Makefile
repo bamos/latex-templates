@@ -2,6 +2,6 @@ SRC=$(wildcard *.tex)
 FLAGS=-halt-on-error
 PDF=$(SRC:.tex=.pdf)
 
-all: $(PDF) cheatsheet.cls
-%.pdf: %.tex; pdflatex $(FLAGS) $<; pdflatex $(FLAGS) $<
+all: $(PDF)
+%.pdf: %.tex; rubber --pdf $< && rubber --clean $<
 clean: ; rm -rf *.aux *.log $(PDF)
