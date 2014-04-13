@@ -1,8 +1,7 @@
-all: poster.pdf
+SRC=$(wildcard *.tex)
+FLAGS=-halt-on-error
+PDF=$(SRC:.tex=.pdf)
 
-%.pdf: %.tex Makefile
-	rubber --pdf $<
-	rubber --clean $<
-
-clean:
-	rm -f *.aux *.bbl *.blg *.log poster*.pdf
+all: $(PDF)
+%.pdf: %.tex; rubber --pdf $< && rubber --clean $<
+clean: ; rm -rf *.aux *.log $(PDF)
