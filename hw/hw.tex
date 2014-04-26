@@ -5,7 +5,7 @@
 \setlength{\topskip}{0mm}\setlength{\parskip}{1ex}\setlength{\parindent}{0mm}
 \usepackage{enumitem}\setlist{nolistsep}
 
-\usepackage{listings, textcomp,color}
+\usepackage{listings,textcomp,color}
 \lstset{language=C,upquote=true,
   basicstyle=\footnotesize,commentstyle=\textit,stringstyle=\upshape,
   numbers=left,numberstyle=\footnotesize,stepnumber=1,numbersep=5pt,
@@ -15,33 +15,28 @@
 }
 
 \usepackage{fancyhdr}\pagestyle{fancy}
-\lhead{\today}\chead{{\bfseries Assignment \#1}}\rhead{Brandon Amos}
+\lhead{\today}\chead{{\bf Assignment \#1}}\rhead{Brandon Amos}
+
+\usepackage{framed}
+\newenvironment{quo}{\begin{framed}\begin{minipage}{0.97\textwidth}
+  \setlength{\parskip}{4mm}
+}{\end{minipage}\end{framed}}
 
 \usepackage{lastpage}
 \cfoot{Page \thepage\ of \pageref{LastPage}}
 
 \begin{document}
 
-{\bfseries Problem 1.}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet
-dictum urna, sed vehicula ligula commodo eu. Lorem ipsum dolor sit
-amet, consectetur adipiscing elit. Donec in neque ut quam aliquam
-facilisis nec sit amet massa. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Pellentesque at congue sem. Proin pharetra risus
-eget augue auctor nec mattis justo ornare. Suspendisse eleifend
-egestas est, a vulputate orci eleifend eu. Vestibulum dapibus
-pellentesque luctus. Praesent blandit rhoncus ligula vel tristique.
-Mauris est metus, laoreet a consequat non, condimentum ut neque. In
-sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
-tellus sagittis dignissim. Aenean in nisi eros.
+\begin{quo}
+  {\bf Problem 1.}
+  TODO
+\end{quo}
+TODO
 
-{\bfseries Problem 2.}
-Donec lacus sapien, facilisis eget accumsan eu, commodo a risus. Sed
-gravida pulvinar orci auctor commodo. Pellentesque vitae dolor sem,
-scelerisque tempus neque. Duis est mi, convallis a vehicula eu, volutpat
-non diam. Proin scelerisque, velit eu imperdiet venenatis, erat felis
-scelerisque metus, sed mollis massa lacus ac dolor. Quisque sit amet odio
-at enim consequat bibendum. Cum sociis natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus.
+\begin{quo}
+  {\bf Problem 2.}
+  TODO
+\end{quo}
+TODO
 
 \end{document}
