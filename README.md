@@ -2,14 +2,12 @@
 
 [View previews.](http://bamos.io/latex-templates)
 
-+ `cheatsheet` - [Cheatsheet template][cheatsheet]
-+ `hw` - Homework.
-+ `ieee-1.8` - [IEEE template][ieee]
++ `cheatsheet` ([ref][cheatsheet])
++ `hw`
++ `ieee-1.8` ([ref][ieee])
 + `invoice`
-+ `listings` - Produce a PDF with source code listings.
-+ `quotes` - Quoted environment for responding inline.
-+ `statement-concise` - Concise personal statement template.
-+ `statement-full` - Longer personal statement template.
++ `statement-concise`
++ `statement-full`
 
 [cheatsheet]: http://www.stdout.org/~winston/latex/
 [ieee]: http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/
