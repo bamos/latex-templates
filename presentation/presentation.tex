@@ -1,32 +1,32 @@
 \documentclass{beamer}
-\mode<presentation> { \usetheme{Montpellier} }
-\setbeamertemplate{section in toc}[sections numbered]
-\setbeamertemplate{subsection in toc}[subsections numbered]
-\setbeamertemplate{bibliography item}[text]%,
-
+% Theme Matrix: http://www.hartwork.org/beamer-theme-matrix/
+\mode<presentation> { \usetheme{Malmoe}\usecolortheme{dove} }
 \usepackage[T1]{fontenc}
 \usepackage{parskip,graphics}
 \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} \setlength{\parsep}{0pt}
 
 \begin{document}
-\def\mt{Title.}\def\n{Brandon Amos}\def\d{2014/02/24}
-\title[\mt]{\mt}\author[\n]{\n}\date[\d]{\d}
+\title{Title A}\author{Brandon Amos}\date{2014/02/24}
 \frame{\titlepage}
 
 \frame{\frametitle{Table of Contents.}\tableofcontents}
-\def\t{Foo.}\section{\t}
-\frame{\frametitle{\t}
+\section{Section A}
+% Use \frame[allowframebreaks] to span frames across many pages.
+\frame{
+  \frametitle{\insertsection}
   \begin{itemize}
-    \item A \cite{kremer2003compilation}.
-    \item B,C,D
+    \item<1-> A \cite{kremer2003compilation}.
+    \item<2-> B,C,D
       \cite{kosta2012thinkair,cuervo2010maui,yang2013fast,chun2011clonecloud}.
-    \item E
-    \item F
+    \item<3-> E
+    \item<4-> F
   \end{itemize}
 }
 
-\def\t{Bar.}\section{\t}\def\st{Baz.}\subsection{\st}
-\frame[allowframebreaks]{\frametitle{\t}\framesubtitle{\st}
+\section{Section B.}\subsection{Subsection 1.}
+\frame{
+  \frametitle{\insertsection}
+  \framesubtitle{\insertsubsection}
   \begin{itemize}
     \item A
     \item B
@@ -35,7 +35,7 @@
 }
 
 \section{Bibliography}
-\begin{frame}[allowframebreaks]{Bibliography}
+\begin{frame}{Bibliography}
   \scriptsize
   \bibliographystyle{ieeetr}
   \bibliography{references}
