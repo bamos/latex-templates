@@ -6,4 +6,5 @@ all: presentation.pdf
 	bibtex $(<:.tex=.aux)
 	pdflatex -halt-on-error $<
 	pdflatex -halt-on-error $<
-clean: ; rm -rf *.pdf *.aux *.log *.csv *.dvi *.fdb_latexmk *.fls
+	rm -f *.blg *.out *.aux *.log *.toc *.bbl *.nav *.snm
+clean: ; rm -f *.pdf *.aux *.log *.dvi *.blg *.out *.bbl *.nav *.snm *.toc
