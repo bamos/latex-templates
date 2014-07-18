@@ -1,0 +1,39 @@
+{% extends "base.jinja.html" %}
+
+{% block content %}
+
+<div class="container">
+TODO - Rewrite.
+
+The <a href="http://en.wikipedia.org/wiki/Beamer_(LaTeX)">Beamer</a> package
+enables <a href="http://www.latex-project.org/">LaTeX</a> to produce high
+quality technical presentations and can be used in combination with the
+<a href="http://en.wikibooks.org/wiki/LaTeX/PGF/TikZ">TikZ</a> package for
+including publication-quality diagrams in presentations.
+However, formatting LaTeX presentations using Beamer and TikZ is
+difficult and time consuming, so I often reuse code templates from
+previous presentations.
+The following are images and LaTeX templates generated from the
+<a href="http://github.com/bamos/beamer-templates">bamos/beamer-templates</a>
+repository on Github, which I hope to continuously update.
+To use these, copy and paste the code from the
+<a href="#" data-toggle="modal" data-target="#baseModal">base document</a>
+to a new LaTeX document and compile it for a starting point.
+See <a href="https://www.tug.org/begin.html">here</a> for a further
+introduction to LaTeX.
+</div>
+
+{% for template in templates -%}
+  <h2>{{template['fname']}}</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6">
+        <img src="./{{template['png']}}" width="100%"></img>
+      </div>
+      <div class="col-xs-6">
+        {{ template['content'] }}
+      </div>
+    </div>
+  </div>
+{%- endfor %}
+{% endblock %}
