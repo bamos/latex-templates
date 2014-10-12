@@ -3,5 +3,5 @@ FLAGS=-halt-on-error
 PDF=$(SRC:.tex=.pdf)
 
 all: $(PDF)
-%.pdf: %.tex; rubber --pdf $< && rubber --clean $<
+%.pdf: %.tex; latexmk --pdf $< && latexmk -c $<
 clean: ; rm -rf *.aux *.log $(PDF)
