@@ -14,7 +14,8 @@ ref_map = {
   'cheatsheet': 'http://www.stdout.org/~winston/latex/',
   'ieee-1.8': 'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/',
   'cv': 'https://github.com/bamos/cv',
-  'presentation': 'https://github.com/bamos/beamer-snippets'
+  'presentation': 'https://github.com/bamos/beamer-snippets',
+  'vt-poster': 'http://www.brian-amberg.de/uni/poster/'
 }
 
 env = Environment(loader=FileSystemLoader("tmpl"),
