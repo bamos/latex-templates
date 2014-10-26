@@ -1,0 +1,8 @@
+\frametitle{\insertsection}\framesubtitle{\insertsubsection}
+  \begin{lstlisting}[language=scala,keywordstyle=\bf,stringstyle=\it]
+// Sample Scala code listing.
+object Foo {
+  val sequence = Seq("bar", "baz")
+  lazy val conf = if (someCondition) a else b
+}
+  \end{lstlisting}
