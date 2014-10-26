@@ -1,2 +1,3 @@
 dist
 *.pdf
+node_modules
