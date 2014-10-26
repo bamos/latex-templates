@@ -7,7 +7,7 @@ often difficult to modify.
 This repository contains LaTeX templates I'm curating and creating
 that strive to be minimalist, which are best viewed on
 [this webpage][www].
-See also my other LaTeX projects at [bamos/cv][cv] and
+See my other LaTeX projects at [bamos/cv][cv] and
 [bamos/beamer-snippets][beamer-snippets].
 
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
