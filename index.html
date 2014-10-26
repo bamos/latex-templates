@@ -60,11 +60,33 @@ repository on GitHub.
 See <a href="https://www.tug.org/begin.html">here</a> for a further
 introduction to LaTeX.
 
-The Makefile's use
-<a href="https://github.com/btford/write-good">btford/write-good</a>
-to error and not build the document if the content contains the passive voice
-and throw a warning (but still build the document) for other errors.
-</div>
+<p>I'm two months into a CS Ph.D. program and all my LaTeX writing
+is technical.
+I often place the passive voice in technical documents where the active
+voice better suits and have been searching for ways to automatically
+prevent using the passive voice.
+I recognize that using the passive voice can be favorable,
+as <a href="http://www.lel.ed.ac.uk/%7Egpullum/passive_loathing.pdf">this article</a> and <a href="http://en.wikipedia.org/wiki/English_passive_voice#Advice_in_favor_of_the_passive_voice">Wikipedia</a> describe, but
+I want to break my bad habit of misusing the passive voice.</p>
+
+<p>I've found the <a href="https://github.com/btford/write-good">btford/write-good</a> project, which is a
+native linter for English prose
+and works well on plaintext <a href="http://www.latex-project.org/">LaTeX</a> documents.
+I've updated the <a href="http://www.gnu.org/software/make/">Makefile's</a> in this project
+to use <code>write-good</code> and refuse to build documents containing passive voice.
+I see forcing the active voice in LaTeX document as using the
+<code>-Werror</code> flag in C and C++ programs.
+All other messages are output as warnings after building.</p>
+
+<p>Note: The return status and correct flag handling are available in my
+fork at <a href="https://github.com/bamos/write-good">bamos/write-good</a>.
+I've submitted a <a href="https://github.com/btford/write-good/pull/31">pull request</a> to merge these changes into
+the original repository.</p>
+
+<p>I understand this forceful option isn't desirable for everybody.
+The check will run if <code>write-good</code> installed and on your <code>PATH</code>.
+You can disable this check by commenting out the first call to
+<code>write-good</code> in the Makefile with the <code>#</code> character.</p>
 
 <h2>cheatsheet</h2>
   <div class="container-fluid">
