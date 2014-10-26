@@ -25,9 +25,8 @@ I want to break my bad habit of misusing the passive voice.
 I've found the [btford/write-good][write-good] project, which is a
 native linter for English prose
 and works well on plaintext [LaTeX][latex] documents.
-I've updated the [Makefile's][make] in my
-[latex-templates project][lt] to use `write-good`
-and refuse to build documents containing passive voice.
+I've updated the [Makefile's][make] in this project
+to use `write-good` and refuse to build documents containing passive voice.
 I see forcing the active voice in LaTeX document as using the
 `-Werror` flag in C and C++ programs.
 All other messages are output as warnings after building.
