@@ -30,8 +30,8 @@ def runCmd(cmdStr):
   ret = p.poll()
   if ret:
     print("Error: Command returned nonzero: {}.".format(ret))
-    print("===Stdout:\n{}".format{out[0].decode())
-    print("===Stderr:\n{}".format{out[1].decode())
+    print("===Stdout:\n{}".format(out[0].decode()))
+    print("===Stderr:\n{}".format(out[1].decode()))
     raise Exception("Command returned nonzero: {}.".format(ret))
 
 
