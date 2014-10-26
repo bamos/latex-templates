@@ -10,6 +10,11 @@ that strive to be minimalist, which are best viewed on
 
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
+## Writing Check
+The Makefile's will use [btford/write-good][write-good]
+to error and not build the document if the content contains the passive voice
+and throw a warning (but still build the document) for other errors.
+
 ## Contributing.
 Contributions are highly welcomed!
 Please add to the [templates][templates] directory
@@ -46,3 +51,6 @@ All other portions are under the MIT license.
 [gf]: https://github.com/bamos/latex-templates/blob/master/Gruntfile.js
 [pjson]: https://github.com/bamos/latex-templates/blob/master/package.json
 [lt-ghp]: https://github.com/bamos/latex-templates/tree/gh-pages
+
+[templates]: https://github.com/bamos/latex-templates/tree/master/templates
+[write-good]: https://github.com/btford/write-good
