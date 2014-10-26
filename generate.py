@@ -41,7 +41,7 @@ for d in sorted(os.listdir(templates_dir)):
 
   pdf = "templates/"+d+"/"+d+".pdf"
   png = "templates/"+d+"/"+d+".png"
-  src = "https://github.com/bamos/latex-templates/tree/master/{}".format(d)
+  src = "https://github.com/bamos/latex-templates/tree/master/templates/{}".format(d)
   tar = "templates/"+d+".tar"
 
   runCmd("tar -C dist/templates -cf dist/{} {}".format(tar,d))
