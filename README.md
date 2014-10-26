@@ -7,6 +7,8 @@ often difficult to modify.
 This repository contains LaTeX templates I'm curating and creating
 that strive to be minimalist, which are best viewed on
 [this webpage][www].
+See also my other LaTeX projects at [bamos/cv][cv] and
+[bamos/beamer-snippets][beamer-snippets].
 
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
@@ -54,3 +56,6 @@ All other portions are under the MIT license.
 
 [templates]: https://github.com/bamos/latex-templates/tree/master/templates
 [write-good]: https://github.com/btford/write-good
+
+[cv]: https://github.com/bamos/cv
+[beamer-snippets]: https://github.com/bamos/beamer-snippets
