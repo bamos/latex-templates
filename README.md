@@ -1,22 +1,48 @@
 # LaTeX Templates
 
-TODO - Intro/Screenshot
+[LaTeX][latex] is a typesetting program
+used to produce high quality technical documents.
+Formatting LaTeX documents is difficult and pre-built templates are
+often difficult to modify.
+This repository contains LaTeX templates I'm curating and creating
+that strive to be minimalist, which are best viewed on
+[this webpage][www].
 
-[View previews.](http://bamos.io/latex-templates)
+![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
-TODO - beamer-snippets for presentations.
+## Contributing.
+Contributions are highly welcomed!
+Please add to the [templates][templates] directory
+and send a pull request.
 
-+ `cheatsheet` ([ref][cheatsheet])
-+ `hw`
-+ `ieee-1.8` ([ref][ieee]) (ref Jules)
-+ `invoice`
-+ `statement-concise`
-+ `statement-full`
-+ `vt-poster` (TODO-ref)
+## Webpage Generation Process.
+The Python 3 script [generate.py][gen] produces a static website in `dist`.
+`generate.py` loops through the collection of snippets and uses
+[Jinja][jinja] templates to output LaTeX documents.
 
-TODO - Building with Grunt
+[Grunt][grunt] is used to deploy `dist` to [Github pages][ghp]
+in the [gh-pages][lt-ghp] branch with the [grunt-build-control][gbc] plugin.
+The [npm][npm] dependencies are managed in [package.json][pjson]
+and can be installed with `npm install`.
 
-TODO - Licensing
++ `grunt generate` produces the static site in `dist`, and
++ `grunt deploy` pushes the `dist` directory to the `gh-pages` branch.
 
-[cheatsheet]: http://www.stdout.org/~winston/latex/
-[ieee]: http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/
+# Licensing.
+All modified referenced code has license of the original source.
+All other portions are under the MIT license.
+
+[latex]: http://www.latex-project.org/
+[www]: http://bamos.github.io/latex-templates/
+
+[jinja]: http://jinja.pocoo.org/
+[grunt]: http://gruntjs.com/
+[ghp]: https://pages.github.com/
+[gbc]: https://github.com/robwierzbowski/grunt-build-control
+[npm]: https://www.npmjs.org/
+
+[gen]: https://github.com/bamos/latex-templates/blob/master/generate.py
+[mf]: https://github.com/bamos/latex-templates/blob/master/Makefile.slides
+[gf]: https://github.com/bamos/latex-templates/blob/master/Gruntfile.js
+[pjson]: https://github.com/bamos/latex-templates/blob/master/package.json
+[lt-ghp]: https://github.com/bamos/latex-templates/tree/gh-pages
