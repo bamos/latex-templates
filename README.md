@@ -16,6 +16,8 @@ See my other LaTeX projects at [bamos/cv][cv] and
 The Makefile's will use [btford/write-good][write-good]
 to error and not build the document if the content contains the passive voice
 and throw a warning (but still build the document) for other errors.
+Note: The return status and correct flag handling are available
+in my fork at [bamos/write-good][bamos/write-good].
 
 ## Contributing.
 Contributions are highly welcomed!
@@ -56,6 +58,7 @@ All other portions are under the MIT license.
 
 [templates]: https://github.com/bamos/latex-templates/tree/master/templates
 [write-good]: https://github.com/btford/write-good
+[bamos/write-good]: https://github.com/bamos/write-good
 
 [cv]: https://github.com/bamos/cv
 [beamer-snippets]: https://github.com/bamos/beamer-snippets
