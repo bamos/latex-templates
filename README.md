@@ -22,7 +22,7 @@ I recognize that using the passive voice can be favorable,
 as [this article][pv1] and [Wikipedia][pv2] describe, but
 I want to break my bad habit of misusing the passive voice.
 
-I've found the [btford/write-good][wg] project, which is a
+I've found the [btford/write-good][write-good] project, which is a
 native linter for English prose
 and works well on plaintext [LaTeX][latex] documents.
 I've updated the [Makefile's][make] in my
@@ -72,6 +72,7 @@ All other portions are under the MIT license.
 [ghp]: https://pages.github.com/
 [gbc]: https://github.com/robwierzbowski/grunt-build-control
 [npm]: https://www.npmjs.org/
+[make]: http://www.gnu.org/software/make/
 
 [gen]: https://github.com/bamos/latex-templates/blob/master/generate.py
 [mf]: https://github.com/bamos/latex-templates/blob/master/Makefile.slides
