@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.3 $
+% $ biblatex bbl format version 2.4 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist{entry}{none}
+  \sortlist{none}{none}
     \entry{hu2014case}{inproceedings}{}
       \name{labelname}{9}{}{%
         {{hash=cb15c8942db4a1ee1a305da3daec6ff5}{Hu}{H\bibinitperiod}{Wenlu}{W\bibinitperiod}{}{}{}{}}%
@@ -45,6 +45,7 @@
       \strng{namehash}{47ba6c063f973790fdd7806aa221879e}
       \strng{fullhash}{3b3a0c21206d4a73e84e57a733731321}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{The Case for Offload Shaping}
       \field{title}{The Case for Offload Shaping}
       \field{year}{submitted}
@@ -61,6 +62,7 @@
       \strng{namehash}{aa26db05dba83efa45972b51575346f1}
       \strng{fullhash}{aa26db05dba83efa45972b51575346f1}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Performance study of Spindle, a web analytics query engine implemented in Spark}
       \field{booktitle}{Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom), Big Data Track}
       \field{title}{Performance study of Spindle, a web analytics query engine implemented in Spark}
@@ -88,6 +90,7 @@
       \strng{namehash}{ce3fdb2ed80aa9acc2b74dd8842d19da}
       \strng{fullhash}{c3fd2486b87bb54257e3f68ff92a6408}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology}
       \field{booktitle}{2014 Summer Simulation Multiconference, Society for Modeling and Simulation International}
       \field{title}{Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology}
@@ -113,6 +116,7 @@
       \strng{namehash}{ec7baffea40eb13c87963baf6cc66aca}
       \strng{fullhash}{b31f5c8a064cfac6f367372002a5a830}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Fortran 95 implementation of QNSTOP for global and stochastic optimization}
       \field{booktitle}{2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International}
       \field{title}{Fortran 95 implementation of QNSTOP for global and stochastic optimization}
@@ -132,6 +136,7 @@
       \strng{namehash}{1e8ee6c69132986f8bd62d6dca8d6090}
       \strng{fullhash}{1e8ee6c69132986f8bd62d6dca8d6090}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Applying machine learning classifiers to dynamic Android malware detection at scale}
       \field{booktitle}{IWCMC'13 Security, Trust and Privacy Symposium}
       \field{title}{Applying machine learning classifiers to dynamic Android malware detection at scale}
@@ -157,6 +162,7 @@
       \strng{namehash}{ec7baffea40eb13c87963baf6cc66aca}
       \strng{fullhash}{1ca2fd50d89c23e2b3486ff262ff69b1}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{QNSTOP-QuasiNewton Algorithm for Stochastic Optimization}}
       \field{title}{{QNSTOP-QuasiNewton Algorithm for Stochastic Optimization}}
       \field{year}{submitted}
@@ -182,6 +188,7 @@
       \strng{namehash}{717c37170ea35b9744048910be4b5f90}
       \strng{fullhash}{625c7f8a45aa5c85505bb8ac9dfe67b0}
       \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?}
       \field{journaltitle}{IEEE Security and Privacy Magazine}
       \field{title}{Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?}
