@@ -1,0 +1,31 @@
+~{ extends "base.jinja.html" }~
+
+~{ block content }~
+
+<div class="container">
+TODO - Intro.
+See <a href="https://www.tug.org/begin.html">here</a> for a further
+introduction to LaTeX.
+</div>
+
+~{ for template in templates -}~
+  <h2>~{{template['fname']}}~</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6">
+        <img src="./~{{template['png']}}~" width="100%" style="border: 1px solid #000000"></img>
+      </div>
+      <div class="col-xs-6">
+        <ul>
+          <li><a href="~{{template['pdf']}}~">Full PDF</a></li>
+          <li><a href="~{{template['tar']}}~">Download (tar)</a></li>
+          <li><a href="~{{template['src']}}~">Source</a></li>
+          ~{ if template['ref'] }~
+            <li><a href="~{{template['ref']}}~">Reference</a></li>
+          ~{ endif }~
+        </ul>
+      </div>
+    </div>
+  </div>
+~{- endfor }~
+~{ endblock }~
