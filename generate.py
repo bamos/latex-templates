@@ -12,7 +12,9 @@ from subprocess import Popen,PIPE
 
 ref_map = {
   'cheatsheet': 'http://www.stdout.org/~winston/latex/',
-  'ieee-1.8': 'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/'
+  'ieee-1.8': 'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/',
+  'cv': 'https://github.com/bamos/cv',
+  'presentation': 'https://github.com/bamos/beamer-snippets'
 }
 
 env = Environment(loader=FileSystemLoader("tmpl"),
