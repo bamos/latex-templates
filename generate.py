@@ -60,7 +60,7 @@ for d in sorted(os.listdir(templates_dir)):
   if not os.path.isfile("dist/"+pdf):
     raise Exception("Unable to find pdf.")
 
-  runCmd('convert -flatten -density 300 -trim {}[0] -quality 100 {}'.format(
+  runCmd('convert -flatten -density 300 -trim {}[0] -quality 100 -resize 600 {}'.format(
     "dist/"+pdf, "dist/"+png
   ))
 
