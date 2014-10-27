@@ -35,7 +35,13 @@ building the LaTeX documents.
           <li><a href="~{{template['tar']}}~">Download (tar)</a></li>
           <li><a href="~{{template['src']}}~">Source</a></li>
           ~{ if template['ref'] }~
-            <li><a href="~{{template['ref']}}~">Reference</a></li>
+            ~{ for ref in template['ref'] }~
+              ~{ if template['ref']|length == 1 }~
+                <li><a href="~{{ref}}~">Reference</a></li>
+              ~{ else }~
+                <li><a href="~{{ref}}~">Reference ~{{loop.index}}~</a></li>
+              ~{ endif }~
+            ~{ endfor }~
           ~{ endif }~
         </ul>
       </div>

@@ -11,11 +11,14 @@ from pygments.formatters import HtmlFormatter
 from subprocess import Popen,PIPE
 
 ref_map = {
-  'cheatsheet': 'http://www.stdout.org/~winston/latex/',
-  'ieee-1.8': 'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/',
-  'cv': 'https://github.com/bamos/cv',
-  'presentation': 'https://github.com/bamos/beamer-snippets',
-  'vt-poster': 'http://www.brian-amberg.de/uni/poster/'
+  'cheatsheet': ['http://www.stdout.org/~winston/latex/'],
+  'ieee-1.8': [
+    'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/',
+    'https://code.google.com/p/mobilecps/source/browse/#svn%2Ftrunk%2Fprojects%2Fhamilton_turner%2Fpapers'
+  ],
+  'cv': ['https://github.com/bamos/cv'],
+  'presentation': ['https://github.com/bamos/beamer-snippets'],
+  'vt-poster': ['http://www.brian-amberg.de/uni/poster/']
 }
 
 env = Environment(loader=FileSystemLoader("tmpl"),
