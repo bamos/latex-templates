@@ -4,7 +4,8 @@ Formatting LaTeX documents is difficult and pre-built templates are
 often difficult to tweak.
 This repository contains LaTeX templates I'm curating and creating
 that strive to be simple with minimalist code.
-Pictures of each template are available on [this webpage][www].
+Pictures of each template are available on [this webpage][www],
+which is automatically generated from scripts described below.
 See my other LaTeX projects at [bamos/cv][cv] and
 [bamos/beamer-snippets][beamer-snippets].
 
