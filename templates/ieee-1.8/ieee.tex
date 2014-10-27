@@ -1,5 +1,10 @@
 \documentclass[conference]{IEEEtran}
 
+\usepackage{epsfig}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{fancybox}
+
 \begin{document}
 \title{Research paper title.}
 \author{
@@ -16,16 +21,19 @@
 \maketitle
 
 \begin{abstract}
-  TODO
+  The content in this document is from Jules White at
+  \url{https://code.google.com/p/mobilecps/source/browse/#svn%2Ftrunk%2Fprojects%2Fhamilton_turner%2Fpapers}
 \end{abstract}
 
 \IEEEpeerreviewmaketitle
 
-\section{Introduction}
-TODO \cite{amos2013applying}
-
-\section{Conclusion}
-TODO
+\input{sections/introduction}
+\input{sections/motivation}
+\input{sections/challenges}
+\input{sections/solution}
+\input{sections/results}
+\input{sections/relatedwork}
+\input{sections/conclusion}
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}
