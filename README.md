@@ -1,5 +1,3 @@
-# LaTeX Templates
-
 [LaTeX][latex] is a typesetting program
 used to produce high quality technical documents.
 Formatting LaTeX documents is difficult and pre-built templates are
@@ -12,19 +10,22 @@ See my other LaTeX projects at [bamos/cv][cv] and
 
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
-## Writing Check
+# Writing Check
 [btford/write-good][write-good] is a native linter for English prose
 and works well on LaTeX documents.
 If `write-good` is installed, the Makefile's in this project will output
 a list of warnings and tips for improving writing after
 building the LaTeX documents.
 
-## Contributing.
+# Contributing.
 Contributions are highly welcomed!
-Please add to the [templates][templates] directory
-and send a pull request.
+If you want to add a similar template, please add to
+the [templates][templates] directory and I'm happy to merge pull request.
+If you want to use the static webpage generation framework to present
+a different set of templates with other motivations,
+I'm happy to link to your project here.
 
-## Webpage Generation Process.
+# Webpage Generation Process.
 The Python 3 script [generate.py][gen] produces a static website in `dist`.
 `generate.py` loops through the collection of snippets and uses
 [Jinja][jinja] templates to output LaTeX documents.
@@ -36,6 +37,23 @@ Running `npm install` installs the dependencies.
 
 + `grunt generate` produces the static site in `dist`, and
 + `grunt deploy` pushes the `dist` directory to the `gh-pages` branch.
+
+# Similar Projects
+There are many approaches to sharing LaTeX templates online,
+and this project uniquely adds a static webpage generation process
+to generate previews of templates managed in Git.
+The following list shows a short sampling of projects,
+and I'm happy to merge pull requests of other projects.
+
+## Git Repositories
++ https://github.com/cmichi/latex-template-collection
++ https://github.com/deedydas/Latex-Templates
++ https://github.com/stevegeek/latex-templates
+
+## Websites
++ http://www.latextemplates.com/
++ https://www.sharelatex.com/templates
++ https://www.writelatex.com/templates
 
 # Licensing.
 All modified referenced code has license of the original source.
