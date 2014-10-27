@@ -13,33 +13,11 @@ See my other LaTeX projects at [bamos/cv][cv] and
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
 ## Writing Check
-I'm two months into a CS Ph.D. program and all my LaTeX writing
-is technical.
-I often place the passive voice in technical documents where the active
-voice better suits and have been searching for ways to automatically
-prevent using the passive voice.
-I recognize that using the passive voice can be favorable,
-as [this article][pv1] and [Wikipedia][pv2] describe, but
-I want to break my bad habit of misusing the passive voice.
-
-I've found the [btford/write-good][write-good] project, which is a
-native linter for English prose
-and works well on plaintext [LaTeX][latex] documents.
-I've updated the [Makefile's][make] in this project
-to use `write-good` and refuse to build documents containing passive voice.
-I see forcing the active voice in LaTeX document as using the
-`-Werror` flag in C and C++ programs.
-All other messages are output as warnings after building.
-
-Note: The return status and correct flag handling are available in my
-fork at [bamos/write-good][bamos/write-good].
-I've submitted a [pull request][pr] to merge these changes into
-the original repository.
-
-I understand this forceful option isn't desirable for everybody.
-The check will run if `write-good` installed and on your `PATH`.
-You can disable this check by commenting out the first call to
-`write-good` in the Makefile with the `#` character.
+[btford/write-good][write-good] is a native linter for English prose
+and works well on LaTeX documents.
+If `write-good` is installed, the Makefile's in this project will output
+a list of warnings and tips for improving writing after
+building the LaTeX documents.
 
 ## Contributing.
 Contributions are highly welcomed!
