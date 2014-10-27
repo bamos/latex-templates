@@ -6,4 +6,4 @@ all: $(PDF)
 	latexmk --pdf $<
 	latexmk -c
 	write-good $< || true
-clean: ; rm -rf *.aux *.log $(PDF)
+clean: ; latexmk -C; rm -f *.bbl
