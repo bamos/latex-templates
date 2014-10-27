@@ -17,7 +17,7 @@ If `write-good` is installed, the Makefile's in this project will output
 a list of warnings and tips for improving writing after
 building the LaTeX documents.
 
-# Contributing.
+# Contributing
 Contributions are highly welcomed!
 If you want to add a similar template, please add to
 the [templates][templates] directory and I'm happy to merge pull request.
@@ -25,7 +25,7 @@ If you want to use the static webpage generation framework to present
 a different set of templates with other motivations,
 I'm happy to link to your project here.
 
-# Webpage Generation Process.
+# Webpage Generation Process
 The Python 3 script [generate.py][gen] produces a static website in `dist`.
 `generate.py` loops through the collection of snippets and uses
 [Jinja][jinja] templates to output LaTeX documents.
@@ -55,7 +55,7 @@ and I'm happy to merge pull requests of other projects.
 + https://www.sharelatex.com/templates
 + https://www.writelatex.com/templates
 
-# Licensing.
+# Licensing
 All modified referenced code has license of the original source.
 All other portions are under the MIT license.
 
