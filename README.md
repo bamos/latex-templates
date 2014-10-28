@@ -5,7 +5,7 @@ often require extensive knowledge of the template to modify.
 This repository contains LaTeX templates I'm curating and creating
 that strive to be simple with minimalist code.
 Pictures of each template are available on [this webpage][www],
-which is automatically generated from scripts described below.
+which is automatically created from `generate.py`.
 See my other LaTeX projects at [bamos/cv][cv] and
 [bamos/beamer-snippets][beamer-snippets].
 
