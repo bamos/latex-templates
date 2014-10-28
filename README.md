@@ -1,7 +1,7 @@
 [LaTeX][latex] is a typesetting program
-used to produce high quality technical documents.
-Formatting LaTeX documents is difficult and pre-built templates are
-often difficult to tweak.
+that produces high quality technical documents.
+Formatting LaTeX documents is difficult and pre-built templates
+often require extensive knowledge of the template to modify.
 This repository contains LaTeX templates I'm curating and creating
 that strive to be simple with minimalist code.
 Pictures of each template are available on [this webpage][www],
