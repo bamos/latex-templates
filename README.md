@@ -49,8 +49,9 @@ and I'm happy to merge pull requests of other projects.
 ## Git Repositories
 + https://github.com/cmichi/latex-template-collection
 + https://github.com/deedydas/Latex-Templates
-+ https://github.com/stevegeek/latex-templates
++ https://github.com/MartinThoma/LaTeX-examples
 + https://github.com/RichardLitt/latex-templates
++ https://github.com/stevegeek/latex-templates
 
 ## Websites
 + http://www.latextemplates.com/
