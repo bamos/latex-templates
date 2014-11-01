@@ -50,6 +50,7 @@ and I'm happy to merge pull requests of other projects.
 + https://github.com/cmichi/latex-template-collection
 + https://github.com/deedydas/Latex-Templates
 + https://github.com/stevegeek/latex-templates
++ https://github.com/RichardLitt/latex-templates
 
 ## Websites
 + http://www.latextemplates.com/
