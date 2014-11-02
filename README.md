@@ -47,11 +47,59 @@ The following list shows a short sampling of projects,
 and I'm happy to merge pull requests of other projects.
 
 ## Git Repositories
-+ https://github.com/cmichi/latex-template-collection
-+ https://github.com/deedydas/Latex-Templates
-+ https://github.com/MartinThoma/LaTeX-examples
-+ https://github.com/RichardLitt/latex-templates
-+ https://github.com/stevegeek/latex-templates
+
+<!--
+To generate the following list, install v1 of https://github.com/jacquev6/PyGithub
+and run the following command. Please add projects to the list in the comment
+and in the table below.
+
+The below code portion can be extracted and copied with:
+perl -ne 'print if /^python3<<EOF/ .. /EOF$/' README.md | pbcopy
+
+python3<<EOF | pbcopy
+from github import Github
+import time
+import os
+import sys
+
+github = Github(os.getenv("GITHUB_TOKEN"))
+repo_list = [
+  "cmichi/latex-template-collection",
+  "deedydas/Latex-Templates",
+  "MartinThoma/LaTeX-examples",
+  "RichardLitt/latex-templates",
+  "stevegeek/latex-templates"
+]
+
+print("Generated on {}, see the Markdown source for more details.\n".format(
+  time.strftime("%Y-%m-%d")
+))
+print("Name | Stargazers | Description")
+print("|".join(["----"]*3))
+for r_name in sorted(repo_list):
+  try:
+    r = github.get_repo(r_name)
+  except:
+    print("Error: Repository '{}' not found.".format(r_name),file=sys.stderr)
+    sys.exit(-1)
+  content = " | ".join([
+    "[{}]({})".format(r.full_name,r.html_url),
+    str(r.stargazers_count),
+    r.description
+  ])
+  print(content)
+EOF
+-->
+
+Generated on 2014-11-02, see the Markdown source for more details.
+
+Name | Stargazers | Description
+----|----|----
+[MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | 104 | Examples for the usage of LaTeX
+[RichardLitt/latex-templates](https://github.com/RichardLitt/latex-templates) | 1 | My Personal LaTeX Templates
+[cmichi/latex-template-collection](https://github.com/cmichi/latex-template-collection) | 153 | A collection of different LaTeX templates (invoices, timesheets, letters, etc.).
+[deedydas/Latex-Templates](https://github.com/deedydas/Latex-Templates) | 12 | A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets
+[stevegeek/latex-templates](https://github.com/stevegeek/latex-templates) | 14 | A collection of my LaTeX templates: CV (resume), letter head and PhD Thesis
 
 ## Websites
 + http://www.latextemplates.com/
