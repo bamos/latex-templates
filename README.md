@@ -49,9 +49,10 @@ and I'm happy to merge pull requests of other projects.
 ## Git Repositories
 
 <!--
-To generate the following list, install v1 of https://github.com/jacquev6/PyGithub
-and run the following command. Please add projects to the list in the comment
-and in the table below.
+To generate the following list, install https://github.com/jacquev6/PyGithub
+and download the `github-repo-summary.py` script from
+https://github.com/bamos/python-scripts/blob/master/python3/github-repo-summary.py.
+Please add projects to the list in the comment and in the table below.
 
 github-repo-summary.py \
   cmichi/latex-template-collection \
