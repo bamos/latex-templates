@@ -47,7 +47,6 @@ The following list shows a short sampling of projects,
 and I'm happy to merge pull requests of other projects.
 
 ## Git Repositories
-
 <!--
 To generate the following list, install https://github.com/jacquev6/PyGithub
 and download the `github-repo-summary.py` script from
@@ -66,10 +65,10 @@ Generated on 2014-11-02, see the Markdown source of this file for more details.
 
 Name | Stargazers | Description
 ----|----|----
-[MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | 104 | Examples for the usage of LaTeX
-[RichardLitt/latex-templates](https://github.com/RichardLitt/latex-templates) | 1 | My Personal LaTeX Templates
 [cmichi/latex-template-collection](https://github.com/cmichi/latex-template-collection) | 153 | A collection of different LaTeX templates (invoices, timesheets, letters, etc.).
 [deedydas/Latex-Templates](https://github.com/deedydas/Latex-Templates) | 12 | A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets
+[MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | 104 | Examples for the usage of LaTeX
+[RichardLitt/latex-templates](https://github.com/RichardLitt/latex-templates) | 1 | My Personal LaTeX Templates
 [stevegeek/latex-templates](https://github.com/stevegeek/latex-templates) | 14 | A collection of my LaTeX templates: CV (resume), letter head and PhD Thesis
 
 ## Websites
