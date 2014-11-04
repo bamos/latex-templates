@@ -21,7 +21,7 @@ building the LaTeX documents.
 # Contributing
 Contributions are highly welcomed!
 If you want to add a similar template, please add to
-the [templates][templates] directory and I'm happy to merge pull request.
+the [templates][templates] directory and I'm happy to merge pull requests.
 If you want to use the static webpage generation framework to present
 a different set of templates with other motivations,
 I'm happy to link to your project here.
