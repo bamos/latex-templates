@@ -23,7 +23,7 @@ building the LaTeX documents.
 </p>
 
 ~{ for template in templates -}~
-  <h2>~{{template['fname']}}~</h2>
+  <h2 id="~{{template['fname']}}~"> ~{{template['fname']}}~</h2>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-6">
