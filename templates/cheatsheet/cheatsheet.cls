@@ -59,5 +59,5 @@ amsthm,enumerate, enumitem}
   backgroundcolor=\color{white},
   showspaces=false,showstringspaces=false,showtabs=false,
   frame=single,tabsize=2,
-  breaklines=true,breakatwhitespace=true,escapeinside={\%*}{*)}
+  breaklines=true,breakatwhitespace=true,escapeinside=||
 }
