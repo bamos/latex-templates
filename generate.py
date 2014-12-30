@@ -11,6 +11,7 @@ from pygments.formatters import HtmlFormatter
 from subprocess import Popen,PIPE
 
 ref_map = {
+  'business-cards': ['http://www.ctan.org/tex-archive/macros/latex/contrib/bizcard'],
   'cheatsheet': ['http://www.stdout.org/~winston/latex/'],
   'ieee-1.8': [
     'http://www.ctan.org/tex-archive/macros/latex2e/contrib/IEEEtran/',
