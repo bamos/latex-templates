@@ -1,0 +1,30 @@
+\documentclass[letter]{article}
+
+\usepackage[none]{bizcard}
+\usepackage{marvosym}
+\usepackage{color}
+\usepackage{graphicx}
+
+\begin{document}
+
+\definecolor{c1}{rgb}{0.22,0.45,0.70} % light blue
+
+\begin{bizcard} % 89x51
+  \put(3,25){\includegraphics[width=3.5cm]{./cmu.jpg}}
+
+  \put(54,40){
+    \begin{tabular}{@{}r@{}}
+      \color{c1} \Huge Brandon \\
+      \color{c1} \Huge Amos \\
+    \end{tabular}
+  }
+
+  \put(3,4){
+    \begin{tabular}{@{}r@{\hskip 2mm}l@{\hskip 6mm}r}
+      {\Large \Letter} & {\tt bamos@cs.cmu.edu} & Ph.D. Student \\
+      {\LARGE \ComputerMouse} & {\tt http://bamos.github.io} & Computer Science \\
+    \end{tabular}
+  }
+\end{bizcard}
+
+\end{document}
