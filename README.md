@@ -1,3 +1,5 @@
+[![Linux Build Status](https://travis-ci.org/bamos/latex-templates.svg?branch=master)](https://travis-ci.org/bamos/latex-templates)
+
 [LaTeX][latex] is a typesetting program
 for producing high quality technical documents.
 Formatting LaTeX documents is difficult and modifying pre-built
