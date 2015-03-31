@@ -9,4 +9,4 @@ install:
   - sudo apt-get install texlive-latex-extra latexmk
 script:
   - pep8 --ignore=E402,E501 generate.py
-  - python generate.py --help
+  #- python generate.py --help
