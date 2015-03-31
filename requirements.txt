@@ -1,0 +1,2 @@
+Jinja2==2.7.2
+pygments==2.0.2
