@@ -1,10 +1,11 @@
+[![Linux Build Status](https://travis-ci.org/bamos/latex-templates.svg?branch=master)](https://travis-ci.org/bamos/latex-templates)
+
 [LaTeX][latex] is a typesetting program
-that produces high quality technical documents.
-Formatting LaTeX documents is difficult and pre-built templates
-often require extensive knowledge of the template to modify.
-This repository contains LaTeX templates I'm curating and creating
-that strive to be simple with minimalist code.
-Pictures of each template are available on [this webpage][www],
+for producing high quality technical documents.
+Formatting LaTeX documents is difficult and modifying pre-built
+templates often require extensive knowledge of the template.
+This repository contains simple LaTeX templates for common documents.
+Screenshots of each template are available on [this webpage][www],
 which is automatically created from `generate.py`.
 See my other LaTeX projects at [bamos/cv][cv] and
 [bamos/beamer-snippets][beamer-snippets].
@@ -12,7 +13,7 @@ See my other LaTeX projects at [bamos/cv][cv] and
 ![Screenshot](https://raw.githubusercontent.com/bamos/latex-templates/master/screenshot.png?raw=true)
 
 # Writing Check
-[btford/write-good][write-good] is a native linter for English prose
+[btford/write-good][write-good] is a naive linter for English prose
 and works well on LaTeX documents.
 If `write-good` is installed, the Makefile's in this project will output
 a list of warnings and tips for improving writing after
