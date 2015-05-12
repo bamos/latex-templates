@@ -22,7 +22,7 @@ ref_map = {
     'vt-poster': ['http://www.brian-amberg.de/uni/poster/']
 }
 
-env = Environment(loader=FileSystemLoader("tmpl"),
+env = Environment(loader=FileSystemLoader("website-tmpl"),
                   block_start_string='~{', block_end_string='}~',
                   variable_start_string='~{{', variable_end_string='}}~')
 
