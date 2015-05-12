@@ -28,7 +28,7 @@ env = Environment(loader=FileSystemLoader("website-tmpl"),
 
 shutil.rmtree("dist", ignore_errors=True)
 shutil.copytree("static", "dist")
-shutil.copytree("templates", "dist/templates")
+shutil.copytree("latex-templates", "dist/templates")
 templates_dir = "dist/templates"
 
 
@@ -49,7 +49,7 @@ for d in sorted(os.listdir(templates_dir)):
 
     pdf = "templates/" + d + "/" + d + ".pdf"
     png = "templates/" + d + "/" + d + ".png"
-    src = "https://github.com/bamos/latex-templates/tree/master/templates/{}".format(
+    src = "https://github.com/bamos/latex-templates/tree/master/latex-templates/{}".format(
         d)
     tar = "templates/" + d + ".tar"
 
