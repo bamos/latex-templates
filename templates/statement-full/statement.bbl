@@ -1,15 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{turner2013bad}
-H.~Turner, B.~Amos, J.~White, J.~Camelio, C.~Williams, and R.~Parker.
-\newblock Bad parts: Are our manufacturing systems at risk of silent
-  cyber-attacks?
-\newblock Submitted, 2013.
-
-\bibitem{zhou2012dissecting}
-Y.~Zhou and X.~Jiang.
-\newblock Dissecting android malware: Characterization and evolution.
-\newblock In {\em Security and Privacy (SP), 2012 IEEE Symposium on}, pages
-  95--109. IEEE, 2012.
+\bibitem{amos2013applying}
+B.~Amos, H.~Turner, and J.~White.
+\newblock Applying machine learning classifiers to dynamic android malware
+  detection at scale.
+\newblock In {\em Wireless Communications and Mobile Computing Conference
+  (IWCMC), 2013 9th International}, pages 1666--1671. IEEE, 2013.
 
 \end{thebibliography}

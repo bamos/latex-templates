@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage[hmargin=0.75in, vmargin=1in]{geometry}
+\usepackage[T1]{fontenc}
+
+\setlength{\topskip}{0mm}\setlength{\parskip}{1ex}\setlength{\parindent}{0mm}
+\usepackage{enumitem}\setlist{nolistsep}
+
+\usepackage{fancyhdr}\pagestyle{fancy}
+\lhead{\today}\chead{{\bf Overview}}\rhead{Brandon Amos}
+
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+\begin{document}
+
+\newcommand{\topic}[1]{
+  \begin{minipage}{\linewidth}
+  {\bf #1}
+  \vspace{4in}
+
+  \end{minipage}
+}
+
+\topic{Topic 1}
+\topic{Topic 2}
+\topic{Topic 3}
+\topic{Topic 4}
+
+\end{document}
