@@ -22,7 +22,7 @@ building the LaTeX documents.
 # Contributing
 Contributions are highly welcomed!
 If you want to add a similar template, please add to
-the [templates][templates] directory and I'm happy to merge pull requests.
+the [latex-templates](/latex-templates) directory and I'm happy to merge pull requests.
 If you want to use the static webpage generation framework to present
 a different set of templates with other motivations,
 I'm happy to link to your project here.
@@ -97,7 +97,6 @@ All other portions are under the MIT license.
 [pjson]: https://github.com/bamos/latex-templates/blob/master/package.json
 [lt-ghp]: https://github.com/bamos/latex-templates/tree/gh-pages
 
-[templates]: https://github.com/bamos/latex-templates/tree/master/templates
 [write-good]: https://github.com/btford/write-good
 [bamos/write-good]: https://github.com/bamos/write-good
 [pr]: https://github.com/btford/write-good/pull/31
