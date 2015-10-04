@@ -62,15 +62,16 @@ github-repo-summary.py \
   stevegeek/latex-templates
 -->
 
-Generated on 2014-11-02, see the Markdown source of this file for more details.
+Generated on 2015-10-03, see the Markdown source of this file for more details.
 
 Name | Stargazers | Description
 ----|----|----
-[cmichi/latex-template-collection](https://github.com/cmichi/latex-template-collection) | 153 | A collection of different LaTeX templates (invoices, timesheets, letters, etc.).
-[deedydas/Latex-Templates](https://github.com/deedydas/Latex-Templates) | 12 | A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets
-[MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | 104 | Examples for the usage of LaTeX
+[cmichi/latex-template-collection](https://github.com/cmichi/latex-template-collection) | 255 | A collection of different LaTeX templates (cv, invoices, timesheets, letters, etc.).
+[deedydas/Latex-Templates](https://github.com/deedydas/Latex-Templates) | 58 | A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets
+[MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | 176 | Examples for the usage of LaTeX
 [RichardLitt/latex-templates](https://github.com/RichardLitt/latex-templates) | 1 | My Personal LaTeX Templates
-[stevegeek/latex-templates](https://github.com/stevegeek/latex-templates) | 14 | A collection of my LaTeX templates: CV (resume), letter head and PhD Thesis
+[stevegeek/latex-templates](https://github.com/stevegeek/latex-templates) | 20 | A collection of my LaTeX templates: CV (resume), letter head and PhD Thesis
+
 
 ## Websites
 + http://www.latextemplates.com/
