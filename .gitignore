@@ -1,3 +1,6 @@
 dist
-*.pdf
+auto
 node_modules
+
+*.bbl
+*.pdf
