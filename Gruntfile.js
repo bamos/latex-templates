@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     },
     shell: {
       generate: {
-        command: "python3 generate.py &> /dev/null"
+        command: "python3 generate.py"
       }
     }
   });
