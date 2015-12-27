@@ -18,6 +18,7 @@ ref_map = {
         'https://code.google.com/p/mobilecps/source/browse/#svn%2Ftrunk%2Fprojects%2Fhamilton_turner%2Fpapers'
     ],
     'cv': ['https://github.com/bamos/cv'],
+    'nips': ['https://nips.cc/Conferences/2015/PaperInformation/StyleFiles'],
     'presentation': ['https://github.com/bamos/beamer-snippets'],
     'vt-poster': ['http://www.brian-amberg.de/uni/poster/']
 }
