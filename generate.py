@@ -2,12 +2,8 @@
 
 import os
 import shutil
-import sys
 
 from jinja2 import Environment, FileSystemLoader
-from pygments import highlight
-from pygments.lexers import TexLexer
-from pygments.formatters import HtmlFormatter
 from subprocess import Popen, PIPE
 
 ref_map = {
