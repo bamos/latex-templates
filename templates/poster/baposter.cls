@@ -197,42 +197,20 @@
 \fi
 }
 
-% Default paperwidth and paperheight = a0paper
-\DeclareOptionX{paperwidth}[841mm]{\setlength{\baposter@finalpaperwidth}{#1}}
-\DeclareOptionX{paperheight}[1189mm]{\setlength{\baposter@finalpaperheight}{#1}}
-\DeclareOptionX{specialSize}         {
-  \baposter@setfinalpapersize{36in}{48in}}%
-\DeclareOptionX{archA}         {                           \baposter@setfinalpapersize{9in}{12in}}%
-\DeclareOptionX{archB}         {                           \baposter@setfinalpapersize{12in}{18in}}%
-\DeclareOptionX{archC}         {                           \baposter@setfinalpapersize{18in}{24in}}%
-\DeclareOptionX{archD}         {                           \baposter@setfinalpapersize{24in}{36in}}%
-\DeclareOptionX{archE}         {                           \baposter@setfinalpapersize{36in}{48in}}%
-\DeclareOptionX{archE1}        {                           \baposter@setfinalpapersize{30in}{42in}}%
-\DeclareOptionX{archE2}        {                           \baposter@setfinalpapersize{26in}{38in}}%
-\DeclareOptionX{archE3}        {                           \baposter@setfinalpapersize{27in}{39in}}%
-\DeclareOptionX{a0paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{841mm}{1189mm}}%g
-\DeclareOptionX{a1paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{594mm}{841mm}}%g
-\DeclareOptionX{a2paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{420mm}{594mm}}%g
-\DeclareOptionX{a3paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{297mm}{420mm}}%g
-\DeclareOptionX{a4paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{210mm}{297mm}}%g
-\DeclareOptionX{a5paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{148mm}{210mm}}%g
-\DeclareOptionX{a6paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{105mm}{148mm}}%g
-\DeclareOptionX{b0paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{1000mm}{1414mm}}%g
-\DeclareOptionX{b1paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{707mm}{1000mm}}%g
-\DeclareOptionX{b2paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{500mm}{707mm}}%g
-\DeclareOptionX{b3paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{353mm}{500mm}}%g
-\DeclareOptionX{b4paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{250mm}{353mm}}%g
-\DeclareOptionX{b5paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{176mm}{250mm}}%g
-\DeclareOptionX{b6paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{125mm}{176mm}}%g
-\DeclareOptionX{ansiapaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{11in}}%
-\DeclareOptionX{ansibpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{11in}{17in}}%
-\DeclareOptionX{ansicpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{17in}{22in}}%
-\DeclareOptionX{ansidpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{22in}{34in}}%
-\DeclareOptionX{ansiepaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{34in}{44in}}%
-\DeclareOptionX{letterpaper}   {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{11in}}%
-\DeclareOptionX{legalpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{14in}}%
-\DeclareOptionX{executivepaper}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{7.25in}{10.5in}}%
-\DeclareOptionX{screen}        {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{225mm}{180mm}}%g
+% Default paperwidth and paperheight = letterpaper
+\DeclareOptionX{paperwidth}[8.5in]{\setlength{\baposter@finalpaperwidth}{#1}}
+\DeclareOptionX{paperheight}[11in]{\setlength{\baposter@finalpaperheight}{#1}}
+\DeclareOptionX{archA}{\baposter@setfinalpapersize{9in}{12in}}%
+\DeclareOptionX{archB}{\baposter@setfinalpapersize{12in}{18in}}%
+\DeclareOptionX{archC}{\baposter@setfinalpapersize{18in}{24in}}%
+\DeclareOptionX{archD}{\baposter@setfinalpapersize{24in}{36in}}%
+\DeclareOptionX{archE}{\baposter@setfinalpapersize{36in}{48in}}%
+\DeclareOptionX{archE1}{\baposter@setfinalpapersize{30in}{42in}}%
+\DeclareOptionX{archE2}{\baposter@setfinalpapersize{26in}{38in}}%
+\DeclareOptionX{archE3}{\baposter@setfinalpapersize{27in}{39in}}%
+\DeclareOptionX{letterpaper}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{11in}}%
+\DeclareOptionX{legalpaper}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{14in}}%
+\DeclareOptionX{screen}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{225mm}{180mm}}%g
 
 % Margin
 \setlength{\baposter@finalmargin}{1.5cm}

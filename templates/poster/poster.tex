@@ -1,5 +1,5 @@
 % Source: http://www.brian-amberg.de/uni/poster/
-\documentclass[landscape,specialSize,fontscale=0.3]{baposter}
+\documentclass[landscape,archE,fontscale=0.3]{baposter}
 \usepackage[vlined]{algorithm2e}
 \usepackage{times,calc}
 \usepackage{amsmath,amssymb}
@@ -19,13 +19,13 @@
   \setlength{\parsep}{0pt}
 }
 
-\definecolor{maroon}{cmyk}{0,.8276,.3966,.5451}
+\definecolor{crimsonRed}{cmyk}{0, 1, 1, 0.4}
 
 \begin{document}
 \begin{poster}{
     grid=false, % Show grid to help with alignment
     colspacing=0.7em, % Column spacing
-    headerColorOne=maroon, borderColor=maroon, % Color style
+    headerColorOne=crimsonRed, borderColor=crimsonRed, % Color style
     textborder=faded, % Format of textbox
     % Format of text header
     headerborder=open, headershape=roundedright,
@@ -33,7 +33,7 @@
     background=none, bgColorOne=white,
     headerheight=0.12\textheight
   }{
-    % \includegraphics[width=0.06\linewidth]{android-maroon}
+    \includegraphics[height=0.12\textheight]{cmu-seal}
   }{
     \sc\Huge Title.
   }{
@@ -46,7 +46,7 @@
       Dept. of Computer Science
     \end{minipage}
   }{
-    \includegraphics[height=0.05\textheight]{vtlogo-new}
+    \includegraphics[height=0.12\textheight]{cmu-logo}
   }
 
   \headerbox{Introduction}
@@ -102,7 +102,7 @@
 
   \headerbox{References}
   {name=references,column=3,below=results,above=bottom}{
-    \bibliographystyle{abbrv}
+    \bibliographystyle{alpha}
     \bibliography{refs}
   }
 

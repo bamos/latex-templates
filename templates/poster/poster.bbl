@@ -1,7 +1,7 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{Ada93}
 
-\bibitem{article}
-P.~Adams.
+\bibitem[Ada93]{article}
+Peter Adams.
 \newblock The title of the work.
 \newblock {\em The name of the journal}, 4(2):201--213, 7 1993.
 \newblock An optional note.
