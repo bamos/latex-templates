@@ -16,7 +16,7 @@ ref_map = {
     'cv': ['https://github.com/bamos/cv'],
     'nips': ['https://nips.cc/Conferences/2015/PaperInformation/StyleFiles'],
     'presentation': ['https://github.com/bamos/beamer-snippets'],
-    'poster-vt': ['http://www.brian-amberg.de/uni/poster/']
+    'poster': ['http://www.brian-amberg.de/uni/poster/']
 }
 
 env = Environment(loader=FileSystemLoader("website-templates"),
