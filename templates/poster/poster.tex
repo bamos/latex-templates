@@ -1,110 +1,82 @@
 % Source: http://www.brian-amberg.de/uni/poster/
-\documentclass[landscape,archE,fontscale=0.3]{baposter}
+\documentclass[landscape,archE,fontscale=0.2]{baposter}
 \usepackage[vlined]{algorithm2e}
 \usepackage{times,calc}
 \usepackage{amsmath,amssymb}
 \usepackage{relsize}
 \usepackage{multirow,multicol}
-\usepackage[T1]{fontenc}
 \usepackage{ae}
 \usepackage{url}
+
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{enumitem}\setlist{nolistsep,leftmargin=*}
 \usepackage{graphicx}\graphicspath{{images/}}
 
+\usepackage{tikz}
+\usetikzlibrary[topaths]
+\newcount\mycount
+
+\usepackage[
+citestyle=numeric,
+firstinits=true,
+maxcitenames=1,
+]{biblatex}
+\bibliography{refs}
+
 \setlength{\columnsep}{0.7em}\setlength{\columnseprule}{0mm}
-\newcommand{\compresslist}{
-  \setlength{\itemsep}{1pt}
-  \setlength{\parskip}{0pt}
-  \setlength{\parsep}{0pt}
-}
 
 \definecolor{crimsonRed}{cmyk}{0, 1, 1, 0.4}
 
 \begin{document}
 \begin{poster}{
-    grid=false, % Show grid to help with alignment
-    colspacing=0.7em, % Column spacing
-    headerColorOne=crimsonRed, borderColor=crimsonRed, % Color style
-    textborder=faded, % Format of textbox
-    % Format of text header
+    grid=false,
+    colspacing=0.7em,
+    headerColorOne=crimsonRed, borderColor=crimsonRed,
+    textborder=faded,
     headerborder=open, headershape=roundedright,
     headershade=plain, headerFontColor=white,
     background=none, bgColorOne=white,
-    headerheight=0.12\textheight
+    headerheight=0.15\textheight,
+    headerfont=\color{white}\textsf\textbf\Large,
+    columns=3
   }{
-    \includegraphics[height=0.12\textheight]{cmu-seal}
+    \includegraphics[height=0.13\textheight]{cmu-seal}
   }{
-    \sc\Huge Title.
+    {\textsc{\textbf{\LARGE Title}}} \\
+    {\Large Subtitle}
+  }{\vspace{2mm}\large
+    Brandon Amos and $\ldots$ \\
+    School of Computer Science,
+    Carnegie Mellon University
   }{
-    \bigskip\Large
-    \begin{minipage}{0.4\textwidth}
-      Venue
-    \end{minipage}
-    \begin{minipage}{0.4\textwidth}
-      Brandon Amos \\
-      Dept. of Computer Science
-    \end{minipage}
-  }{
-    \includegraphics[height=0.12\textheight]{cmu-logo}
+    \includegraphics[height=0.11\textheight]{cmu-logo}
   }
 
-  \headerbox{Introduction}
-  {name=intro,column=0,row=0,span=2}{
-    lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-    voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-    kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-    ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-    tempor invidunt ut labore et dolore\cite{article}
-    magna aliquyam erat sed diam voluptua at
-    vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-    gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-    dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-    invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-  }
+  \headerbox{Introduction and Background}
+  {name=intro,column=0,row=0}{\input{intro}}
 
-  \headerbox{Contribution}
-  {name=contribution,column=0,below=intro,above=bottom}{
-    lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-    voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-    kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-    ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-    tempor invidunt ut labore et dolore\cite{article}
-    magna aliquyam erat sed diam voluptua at
-  }
-
-  \headerbox{Visualization}
-  {name=visual,column=1,below=intro,above=bottom}{
-    vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-    gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-    dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-    invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-  }
-
+  \headerbox{Design}
+  {name=design,column=1,row=0}{\input{design}}
 
   \headerbox{Results}
-  {name=results,column=2,row=0,span=2}{
-    lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-    voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-    kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-  }
+  {name=results,column=2}{\input{results}}
 
-  \headerbox{Discussion}
-  {name=discussion,column=2,below=results,above=bottom}{
-    lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-    voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-    kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-  }
-
+  % Below lowest section.
   \headerbox{References}
-  {name=references,column=3,below=results,above=bottom}{
-    \bibliographystyle{alpha}
-    \bibliography{refs}
+  {name=refs,column=0,below=design,above=bottom,span=3}{
+    \setlength{\bibitemsep}{0pt}
+    \renewcommand*{\bibfont}{\footnotesize}
+    \printbibliography[heading=none]
   }
+
+  % Sections bordering references that aren't the lowest.
+  \headerbox{Contributions}
+  {name=contrib,column=0,below=intro,above=refs}{\input{contrib}}
+
+  \headerbox{Conclusions}
+  {name=conclusions,column=2,below=results,above=refs}{\input{conclusions}}
 
 \end{poster}
 \end{document}

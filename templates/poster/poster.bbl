@@ -1,9 +1,45 @@
-\begin{thebibliography}{Ada93}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Ada93]{article}
-Peter Adams.
-\newblock The title of the work.
-\newblock {\em The name of the journal}, 4(2):201--213, 7 1993.
-\newblock An optional note.
 
-\end{thebibliography}
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{article}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dd086e74be93272cf08edc6ba7a82653}{Adams}{A\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dd086e74be93272cf08edc6ba7a82653}
+      \strng{fullhash}{dd086e74be93272cf08edc6ba7a82653}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The name of the journal}
+      \field{month}{7}
+      \field{note}{An optional note}
+      \field{number}{2}
+      \field{title}{The title of the work}
+      \field{volume}{4}
+      \field{year}{1993}
+      \field{pages}{201\bibrangedash 213}
+      \range{pages}{13}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

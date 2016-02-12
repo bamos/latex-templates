@@ -1,7 +1,7 @@
-SRC=$(wildcard *.tex)
+SRC=poster.tex
 PDF=$(SRC:.tex=.pdf)
 
-all: $(PDF)
+all: $(PDF) $(wildcard *.tex) $(wildcard *.bib) $(wildcard images/*)
 %.pdf: %.tex
 	latexmk --pdf $<
 	latexmk -c
