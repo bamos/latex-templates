@@ -1,0 +1,759 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  13 MAR 2025 16:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**note.tex
+(./note.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size11
+.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks20
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen149
+\enit@toks=\toks21
+\enit@inbox=\box51
+\enit@count@id=\count199
+\enitdp@description=\count266
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/natbib/natb
+ib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count267
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/booktabs/bo
+oktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count268
+\@cmidlb=\count269
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count270
+\@lastruleclass=\count271
+\@thisrulewidth=\dimen164
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks22
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/units/nicef
+rac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip53
+\L@UnitsRaiseTextstyle=\skip54
+\L@UnitsRaiseScriptstyle=\skip55
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count272
+)
+\MT@toks=\toks23
+\MT@tempbox=\box52
+\MT@count=\count273
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen165
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count274
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip56
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/colortbl/co
+lortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box53
+\extrarowheight=\dimen167
+\NC@list=\toks25
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box54
+)
+\everycr=\toks26
+\minrowclearance=\skip59
+\rownum=\count275
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/svgn
+am.def
+File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/algorithms/
+algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/float/float
+.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks27
+\float@box=\box55
+\@float@everytoks=\toks28
+\@floatcapt=\box56
+)
+\@float@every@algorithm=\toks29
+\c@algorithm=\count277
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/algorithms/
+algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count278
+\c@ALC@line=\count279
+\c@ALC@rem=\count280
+\c@ALC@depth=\count281
+\ALC@tlm=\skip60
+\algorithmicindent=\skip61
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count282
+)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count285
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Option `pageanchor' set `true' on input line 4062.
+Package hyperref Info: Option `plainpages' set `false' on input line 4062.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062
+.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing ON on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/ba
+ckref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+\c@Hy@tempcnt=\count286
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen169
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count287
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing ON on input line 6076.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
+\Hy@SectionHShift=\skip62
+) (./math_commands.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen172
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen173
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count293
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count294
+\leftroot@=\count295
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count296
+\DOTSCASE@=\count297
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen174
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count298
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count299
+\dotsspace@=\muskip17
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks31
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks32
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks33
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/bm.st
+y
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/mathtools/m
+athtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/calc.
+sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen181
+\calc@Bdimen=\dimen182
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count307
+\calc@Cskip=\skip68
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/mathtools/m
+hsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count308
+\l_MT_multwidth_dim=\dimen183
+\origjot=\skip69
+\l_MT_shortvdotswithinadjustabove_dim=\dimen184
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen185
+\l_MT_above_intertext_sep=\dimen186
+\l_MT_below_intertext_sep=\dimen187
+\l_MT_above_shortintertext_sep=\dimen188
+\l_MT_below_shortintertext_sep=\dimen189
+\xmathstrut@box=\box59
+\xmathstrut@dim=\dimen190
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/cleveref/cl
+everef.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7836.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7852.
+)
+\c@example=\count309
+\c@theorem=\count310
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box60
+) (./note.aux)
+\openout1 = `note.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=0.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count312
+\scratchdimen=\dimen191
+\scratchbox=\box61
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen192
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks36
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/epstopdf-pk
+g/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/grfext/grfe
+xt.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 75.
+Package microtype Info: Applying patch `item' on input line 75.
+Package microtype Info: Applying patch `toc' on input line 75.
+Package microtype Info: Applying patch `eqnum' on input line 75.
+Package microtype Info: Applying patch `footnote' on input line 75.
+Package microtype Info: Applying patch `verbatim' on input line 75.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 75.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package backref Info: ** backref set up for natbib ** on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
+ (./note.out) (./note.out)
+\@outlinefile=\write3
+\openout3 = `note.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/um
+sa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/um
+sb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (./note.bbl (./note.brf)
+\tf@brf=\write4
+\openout4 = `note.brf'.
+
+) [1
+
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/e
+nc/dvips/cm-super/cm-super-t1.enc}]
+(./note.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `note.out' has not changed.
+(rerunfilecheck)             Checksum: 0D162DEA73486FFA2ACAE30C77E323F7;121.
+Package rerunfilecheck Info: File `note.brf' has not changed.
+(rerunfilecheck)             Checksum: 6AD3A2E8B9DEE3392D2B44243C809C4E;39.
+ ) 
+Here is how much of TeX's memory you used:
+ 16764 strings out of 474116
+ 277320 string characters out of 5732612
+ 1931187 words of memory out of 5000000
+ 38831 multiletter control sequences out of 15000+600000
+ 573722 words of font info for 101 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,7n,93p,1001b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
+cm-super/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist
+/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cellar/texlive/2024031
+2_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></opt/homebrew/Ce
+llar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.p
+fb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public
+/cm-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1728.pfb></opt/homebrew/Cellar/texlive/202403
+12_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on note.pdf (1 page, 92463 bytes).
+PDF statistics:
+ 59 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 28681 words of extra memory for PDF output out of 29859 (max. 10000000)
+

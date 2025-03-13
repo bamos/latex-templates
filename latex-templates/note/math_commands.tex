@@ -1,0 +1,107 @@
+% Copyright (c) Meta Platforms, Inc. and affiliates.
+%%%%% NEW MATH DEFINITIONS %%%%%
+
+\usepackage{amsmath,amsfonts,bm,mathtools,amssymb}
+
+\def\ceil#1{\lceil #1 \rceil}
+\def\floor#1{\lfloor #1 \rfloor}
+\def\1{\bm{1}}
+
+\def\gA{{\mathcal{A}}}
+\def\gB{{\mathcal{B}}}
+\def\gC{{\mathcal{C}}}
+\def\gD{{\mathcal{D}}}
+\def\gE{{\mathcal{E}}}
+\def\gF{{\mathcal{F}}}
+\def\gG{{\mathcal{G}}}
+\def\gH{{\mathcal{H}}}
+\def\gI{{\mathcal{I}}}
+\def\gJ{{\mathcal{J}}}
+\def\gK{{\mathcal{K}}}
+\def\gL{{\mathcal{L}}}
+\def\gM{{\mathcal{M}}}
+\def\gN{{\mathcal{N}}}
+\def\gO{{\mathcal{O}}}
+\def\gP{{\mathcal{P}}}
+\def\gQ{{\mathcal{Q}}}
+\def\gR{{\mathcal{R}}}
+\def\gS{{\mathcal{S}}}
+\def\gT{{\mathcal{T}}}
+\def\gU{{\mathcal{U}}}
+\def\gV{{\mathcal{V}}}
+\def\gW{{\mathcal{W}}}
+\def\gX{{\mathcal{X}}}
+\def\gY{{\mathcal{Y}}}
+\def\gZ{{\mathcal{Z}}}
+
+\def\sA{{\mathbb{A}}}
+\def\sB{{\mathbb{B}}}
+\def\sC{{\mathbb{C}}}
+\def\sD{{\mathbb{D}}}
+% Don't use a set called E, because this would be the same as our symbol
+% for expectation.
+\def\sF{{\mathbb{F}}}
+\def\sG{{\mathbb{G}}}
+\def\sH{{\mathbb{H}}}
+\def\sI{{\mathbb{I}}}
+\def\sJ{{\mathbb{J}}}
+\def\sK{{\mathbb{K}}}
+\def\sL{{\mathbb{L}}}
+\def\sM{{\mathbb{M}}}
+\def\sN{{\mathbb{N}}}
+\def\sO{{\mathbb{O}}}
+\def\sP{{\mathbb{P}}}
+\def\sQ{{\mathbb{Q}}}
+\def\sR{{\mathbb{R}}}
+\def\sS{{\mathbb{S}}}
+\def\sT{{\mathbb{T}}}
+\def\sU{{\mathbb{U}}}
+\def\sV{{\mathbb{V}}}
+\def\sW{{\mathbb{W}}}
+\def\sX{{\mathbb{X}}}
+\def\sY{{\mathbb{Y}}}
+\def\sZ{{\mathbb{Z}}}
+
+
+% \newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\HH}{\mathbb{H}}
+\DeclareMathOperator{\Var}{\rm{Var}}
+\newcommand{\Ls}{\mathcal{L}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\D}{\mathrm{D}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\minimize}{minimize}
+\DeclareMathOperator*{\maximize}{maximize}
+\DeclareMathOperator*{\subjectto}{subject\;to}
+\DeclareMathOperator*{\st}{s.t.}
+
+\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+  #1\;\delimsize|\delimsize|\;#2%
+}
+\newcommand{\kl}[2]{\ensuremath{{\rm D}_{\rm KL}\infdivx{#1}{#2}}\xspace}
+\newcommand{\dist}[2]{\ensuremath{{\rm D}\infdivx{#1}{#2}}\xspace}
+
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\ELBO}{ELBO}
+\let\ab\allowbreak
+
+\newcommand{\ftrans}{\ensuremath{f^{\mathrm{trans}}}}
+\newcommand{\fodec}{\ensuremath{f^{\mathrm{odec}}}}
+\newcommand{\frew}{\ensuremath{f^{\mathrm{rew}}}}
+\newcommand{\fdec}{\ensuremath{f^{\mathrm{dec}}}}
+
+
+\newcommand{\xinit}{{x_{\rm init}}}
+\newcommand{\uinit}{{u_{\rm init}}}
+\newcommand{\piold}{{\pi_{\theta_{\rm old}}}}
+
+\newcommand{\defeq}{\vcentcolon=}
+\newcommand{\eqdef}{=\vcentcolon}
+
+\newcommand{\gradupdate}{\ensuremath{\mathrm{grad\_update}}}
+
+\newcommand{\stopgrad}[2]{ \underset{\tiny\mathbf{stop}(#2)}{\left\llbracket{}#1\right\rrbracket{}} }

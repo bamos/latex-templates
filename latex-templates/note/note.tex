@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,hmargin=0.8in,vmargin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+
+\setlength{\topskip}{0mm}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\usepackage{enumitem}
+\setlist{nolistsep,leftmargin=*}
+
+\usepackage{natbib}
+\setlength{\bibsep}{0.0pt}
+
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage[table,svgnames]{xcolor}
+
+
+\usepackage{algorithm, algorithmic}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+\definecolor{detailcolor}{RGB}{120, 120, 120}
+\newcommand{\detail}[1]{{\color{detailcolor} #1}}
+
+\definecolor{linkcolor}{RGB}{74, 102, 146}
+\usepackage[
+colorlinks=true,allcolors=linkcolor,pageanchor=true,
+plainpages=false,pdfpagelabels,bookmarks,bookmarksnumbered,
+backref=page,
+]{hyperref}
+
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{\ifcase #1 Not cited.%
+  \or Cited on page~#2.%
+  \else Cited on pages #2.%
+  \fi%
+}
+
+\input{math_commands}
+
+\usepackage[nameinlink]{cleveref}
+\Crefname{algorithm}{Alg.}{Algs.}
+
+\newtheorem{example}{Example}
+\newtheorem{theorem}{Theorem}
+
+\newcommand{\eg}{e.g.\xspace}
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\cf}{\emph{cf.}\xspace}
+
+\definecolor{lightpurple}{RGB}{168, 141, 201}
+\newcommand*{\bda}[1]{{\textcolor{lightpurple}{[\textbf{Brandon:} #1]}}}
+
+\newcommand{\cellhi}{\cellcolor{RoyalBlue!15}}
+\newcommand{\cblock}[3]{
+  \hspace{-1.5mm}
+  \begin{tikzpicture}[node/.style={square, minimum size=10mm, thick, line width=0pt}]
+    \node[fill={rgb,255:red,#1;green,#2;blue,#3}] () [] {};
+  \end{tikzpicture}%
+}
+
+
+\title{TODO}
+\author{Brandon Amos}
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+TODO
+\end{abstract}
+
+\section{Introduction}
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
+kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
+ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore \citep{article}
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+
+\end{document}
